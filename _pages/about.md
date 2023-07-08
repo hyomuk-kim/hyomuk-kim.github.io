@@ -11,5 +11,3 @@ redirect_from:
 This is Hyomuk's home!
 powered by this [repository](https://github.com/hyomuk-kim/hyomuk-kim.github.io).
 
-Lorem ipsum.
-
