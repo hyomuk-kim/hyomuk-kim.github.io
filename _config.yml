@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "Roboticist"
   location         : "Seoul"
-  employer         : "Samsung Research"
+  employer         :
   pubmed           :
   googlescholar    :
   email            : "gyanr0425@gmail.com"
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/hyomukkim"
+  linkedin         : "hyomukkim"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
