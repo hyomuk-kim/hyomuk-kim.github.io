@@ -11,22 +11,36 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Electrical & Electronics Eng., Chung-ang University, 2011
 
-Work experience
+Military Service
+=====
+* Reconnaissance Battalion, 60th Div., ROK Army
+  * First Lieutenant, Head of Communication Platoon
+  * 49th year of Reserved Officer Training Corps(ROTC)
+
+Research Experiences
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Robot Intelligence Team, Samsung Research, 2018 ~ Present
+  * Autonomous Navigation for Indoor Mobile Robot
+  * Visual SLAM, LiDAR Localizer, motion planning using ROS and C++
+* Global AI Center, Samsung Research, Apr 2021 ~ Present
+  * Brain-Computer Interface
+  * EEG/EMG based signal recognition modeled by CNN using OpenBCI and Bitalino
+* Language & Voice Team, Global AI Center, Apr 2018 ~ Jun 2020
+   * Text-To-Speech Synthesis
+   * Implementation, optimization and testing of deep learning models (WaveNet, LPCNet)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+Professional Experiences
+======
+* TV Research & Development Lab., Samsung Electronics
+  * Projects on commercialization of TV products annually released
+  * Measurement, debugging and testing for every component of TV system
+
+* C-Lab., Samsung Electronics
+  * A project on implementation of user contents archive application
+  * Team leading, concretization of concept and design of user interface
+
 Skills
 ======
 * Skill 1
