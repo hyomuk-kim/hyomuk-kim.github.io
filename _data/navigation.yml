@@ -1,13 +1,7 @@
 # main links links
 main:
-  - title: "Research Projects"
+  - title: "Projects"
     url: /portfolio/
-
-  - title: "Activities"
-    url: /portfolio/
-
-  - title: "CV"
-    url: /cv/
 
   - title: "Posts"
     url: /year-archive/
