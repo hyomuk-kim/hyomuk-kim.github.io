@@ -57,7 +57,7 @@ Music
 * Cello -- from my late 20s
   * SASSE (a string club) in Samsung R&D Campus (in Seoul) -- 2018 ~ Present
   * Samsung Digital Philharmonic in Samsung Digital City (in Suwon) -- 2015 ~ 2018
-* Drums -- in most of my 20s
+* Drums -- from my mid 10s to late 20s
   * Unknown developers band (mad at modern rock and metal) (in Hongdae area) 
   * contemporary christian music band at church
 
