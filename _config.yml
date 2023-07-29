@@ -82,7 +82,7 @@ analytics:
 author:
   name             : ""
   avatar           : "profile.png"
-  bio              : "Roboticist @Samsung Research"
+  bio              : "Roboticist  @Samsung Research"
   location         : "Seoul"
   employer         :
   pubmed           :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "hyomuk-kim"
   google_plus      :
   keybase          :
   instagram        :
