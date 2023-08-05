@@ -7,17 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-Currently I am a staff engineer and a **roboticist** at _Robot Center_, _[Samsung Research](https://research.samsung.com)_ working on mobile robot navigation.
-Recently I am diving deep into **visual SLAM** for 3D localization, mapping, and robust navigation.
-I also endeavored to implement an optimal neural network for brain-computer interface and speech synthesis engine at _Global AI Center_.
+Currently I am a staff engineer and a **roboticist** at Robot Center, [Samsung Research](https://research.samsung.com) working on mobile robot navigation with [Junghyun Kwon](https://linkedin.com/in/junghyun-kwon). Recently I am diving deep into **visual SLAM** for 3D localization, mapping, and robust navigation.
+I also endeavored to perform research projects on neural networks for brain-computer interface advised by [Daniel D. Lee](https://www.ece.cornell.edu/faculty-directory/daniel-dongyuel-lee) and neural speech synthesis engine advised by [Chanwoo Kim](https://linkedin.com/in/chanwoo-kim-2628a622) at Global AI Center.
 
 Previously as a hardware engineer for 5 years,
-I have developed circuit systems of various TV models at Visual Display Division, _[Samsung Electronics](https://www.samsung.com)_,
+I have developed circuit systems of various TV models at Visual Display Division, [Samsung Electronics](https://www.samsung.com),
 and, as a planner and a manager for a year,
-performed a project on an user contents archive platform based on multi device interfaces, leading the 6-member team at _C-Lab_.
+performed a project on an user contents archive platform based on multi device interfaces, leading the 6-member team at C-Lab.
 
 This website is devoted to help you understand my journey for research more well.  
-Download _[curriculum vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf)_
+
+[Curriculum Vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf)
 
 ***
 
@@ -29,8 +29,9 @@ Download _[curriculum vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pd
 
 ## Research Objectives
 ### General Objectives
-Determine how robots can understand semantic contexts of surroundings, navigate safely and fluently
-in/out-door environments for various tasks and augment their intelligence by learning continuously.
+Determine how robots can understand semantic contexts of surroundings,  
+navigate safely and fluently in/out-door environments for various tasks  
+and augment their intelligence by learning continuously.
 
 ### Specific Objectives
 * Determine how autonomous robots and vehicles perfectly understand and navigate 3D space in the specific environments with various static and dynamic objects (_wall, glass, pillar, furniture, human, etc._), using raw sensory data like images or scans from just a couple of sensors (_e.g. only stereo camera_), in terms of the specific constraints for feasible applications or products.
