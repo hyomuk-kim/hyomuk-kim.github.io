@@ -1,4 +1,11 @@
-# Hyomuk Kim
+---
+permalink: /
+title: "Hyomuk Kim"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
 
 Currently I am a staff software engineer at *Robot Center, [Samsung Research](https://research.samsung.com)* working on mobile robot navigation.  
 Recently I am diving deep into visual SLAM for 3D localization, mapping, and robust navigation.  
