@@ -7,21 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-Currently I am a staff software engineer at *Robot Center, [Samsung Research](https://research.samsung.com)* working on mobile robot navigation.  
-Recently I am diving deep into visual SLAM for 3D localization, mapping, and robust navigation.  
+Currently I am a staff software engineer at _Robot Center, [Samsung Research](https://research.samsung.com)_ working on mobile robot navigation.
+Recently I am diving deep into visual SLAM for 3D localization, mapping, and robust navigation.
 I also endeavored to implement an optimal neural network for brain-computer interface and speech synthesis engine at *Global AI Center*.
 
-Previously as a hardware engineer for 5 years, I have developed circuit systems of various TV models at Visual Display Division, *[Samsung Electronics](https://www.samsung.com)*, and performed a project on an user contents archive platform based on multi device interfaces as a planner and a manager, leading the 6-member team at *C-Lab*.
+Previously as a hardware engineer for 5 years,
+I have developed circuit systems of various TV models at Visual Display Division, _[Samsung Electronics](https://www.samsung.com)_,
+and as a planner and a manager for a year,
+performed a project on an user contents archive platform based on multi device interfaces, leading the 6-member team at _C-Lab_.
 
 This website is devoted to help you understand my journey for research more well.  
-Download *[CV](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf)*
+Download _[Curriculum Vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf)_
 
 ***
 
 ## Education
-* B.Sc. in Electrical & Electronics Engineering, *[Chung-Ang University](https://www.cau.ac.kr)*  
+* B.Sc. in Electrical & Electronics Engineering, _[Chung-Ang University](https://www.cau.ac.kr)_  
   -- *Feb 2011*
-* Cadet in the Army *[ROTC](https://www.armyofficer.mil.kr:460/)* (Reserved Officer Training Corps) program 49<sup>th</sup>  
+* Cadet in the Army _[ROTC](https://www.armyofficer.mil.kr:460/)_ (Reserved Officer Training Corps) program 49<sup>th</sup>  
   -- *Mar 2009 ~ Feb 2011*
 
 ## Research Objectives
