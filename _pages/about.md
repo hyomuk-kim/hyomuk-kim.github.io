@@ -7,17 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Currently I am a staff engineer and a roboticist at Robot Center, [Samsung Research](https://research.samsung.com) working on mobile robot navigation with [Mid-Eum Choi](https://linkedin.com/in/mid-eum-choi-ba106017a) and [Junghyun Kwon](https://linkedin.com/in/junghyun-kwon). Recently I am diving deep into **Visual Navigation** for 3D localization, mapping, and robust navigation.
+I am a staff engineer and roboticist at Robot Center, [Samsung Research](https://research.samsung.com) working on mobile robot navigation with [Mid-Eum Choi](https://linkedin.com/in/mid-eum-choi-ba106017a) and [Junghyun Kwon](https://linkedin.com/in/junghyun-kwon). Recently I have been diving deep into **Visual Navigation** for 3D localization, mapping, and robust navigation.
 I also endeavored to perform research projects on neural networks for Brain-Machine Interface advised by [Daniel D. Lee](https://www.ece.cornell.edu/faculty-directory/daniel-dongyuel-lee) and Neural Speech Synthesis engine advised by [Chanwoo Kim](https://linkedin.com/in/chanwoo-kim-2628a622) at Global AI Center.
 
-Previously as a hardware engineer for 5 years,
-I have developed circuit systems of various TV models at Visual Display Division, [Samsung Electronics](https://www.samsung.com),
-and, as a planner and a manager for a year,
-performed a project on an user contents archive platform based on multi device interfaces, leading the 6-member team at [C-Lab](https://samsungclab.com/).
+Previously, I worked as a hardware engineer for 5 years, during which I developed circuit systems for various TV models at the Visual Display Division of [Samsung Electronics](https://www.samsung.com). Additionally, I served as a planner and manager for a year, leading a 6-member team in a project focused on a user content archive platform utilizing multi-device interfaces at [C-Lab](https://samsungclab.com/).
 
-This website is devoted to help you understand my journey for research more well.  
+This website is dedicated to helping you gain a better understanding of my research journey.
 
-[Curriculum Vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf)
+Please refer to my [Curriculum Vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf).
 
 ***
 
