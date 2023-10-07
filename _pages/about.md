@@ -37,23 +37,23 @@ Explore <u>robots' ability to understand and navigate diverse environments safel
 * Evaluate <u>robots' adaptability in unique environments</u> like underwater, forests, and outer space, assessing their seamless navigation capabilities across these environments <u>to achieve lifelong navigation for versatile robots</u>.
 
 ## Professional Experiences
-* Staff Engineer (Robotics Software), _Robot Intelligence Team, Robot Center, [Samsung Research](https://research.samsung.com)_  
+* Staff Engineer (Robotics), _Robot Intelligence Team, Robot Center, [Samsung Research](https://research.samsung.com)_  
   -- _Apr 2021 ~ Present_
-* Engineer (Deep Learning Software), _Global AI Center, Samsung Research_  
+* Engineer (Deep Learning), _Global AI Center, Samsung Research_  
   -- _Jan 2020 – Apr 2021_
-* Engineer (Deep Learning Software), _Language & Voice Team, Global AI Center, Samsung Research_  
+* Engineer (Deep Learning), _Language & Voice Team, Global AI Center, Samsung Research_  
   -- _Apr 2018 – Jan 2020_
-* Project Leader, _[C-Lab](https://samsungclab.com/)., Visual Display Div., [Samsung Electronics](https://www.samsung.com)_  
+* Project Leader, _[C-Lab](https://samsungclab.com/)., Visual Display Div., Samsung Electronics_  
   -- _Jun 2014 – Jun 2015_
-* Engineer (Circuitry Hardware), _TV R&D Lab., Visual Display Div., Samsung Electronics_  
+* Engineer (Circuitry), _TV R&D Lab., Visual Display Div., [Samsung Electronics](https://www.samsung.com)_  
   -- _Apr 2013 – Apr 2018_
 
 ## Military Service
-* First Lieutenant (Head of Communication Platoon), _Reconnaissance Battalion, 60th Div., Republic of Korea Army_  
+* First Lieutenant, _Reconnaissance Battalion, 60th Div., Republic of Korea Army_  
   -- _Mar 2011 – Jun 2013_
 
 ## Education
-* B.Sc. in Electrical & Electronics Engineering, _[Chung-Ang University](https://neweng.cau.ac.kr/index.do)_  
+* Bachelor of Science in Electrical & Electronics Engineering, _[Chung-Ang University](https://neweng.cau.ac.kr/index.do)_  
   -- _Feb 2011_
 * Cadet in the Army _[ROTC](https://www.armyofficer.mil.kr:460/)_ (Reserved Officer Training Corps) program 49<sup>th</sup>  
   -- _Mar 2009 ~ Feb 2011_
