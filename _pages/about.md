@@ -49,7 +49,7 @@ Explore <u>robots' ability to understand and navigate diverse environments safel
   -- _Apr 2013 – Apr 2018_
 
 ## Military Service
-* First Lieutenant, _Reconnaissance Battalion, 60th Div., Republic of Korea Army_  
+* First Lieutenant, _Reconnaissance Battalion, 60th Div., [Republic of Korea Army](https://www.army.mil.kr/english/index..do)_  
   -- _Mar 2011 – Jun 2013_
 
 ## Education

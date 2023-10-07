@@ -1,6 +1,6 @@
 ---
-title: "Speech Synthesis"
-excerpt: "Neural Network for speech synthesis based on WaveNet and LPCNet <br/><img src='/images/500x300.png'>"
+title: "Neural Speech Synthesis"
+excerpt: "Speech Synthesis with deep neural networks  <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

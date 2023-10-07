@@ -1,6 +1,6 @@
 ---
-title: "Brain-Computer Interface"
-excerpt: "Neural Network for Hand Gesture Recognition using EMG <br/><img src='/images/500x300.png'>"
+title: "Brain-Machine Interfaces"
+excerpt: "Speech Imagery Recognition and Hand Gesture Recognition  <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

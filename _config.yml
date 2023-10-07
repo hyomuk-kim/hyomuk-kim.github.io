@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hyomuk Kim"
+title                    : "Researcher"
 title_separator          : "-"
 name                     : &name "Hyomuk Kim"
 description              : &description "Roboticist"
@@ -198,9 +198,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time:
       comments: true
-      share: true
+      share:
       related: true
   # _pages
   - scope:
@@ -234,7 +234,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share:
       comment: true
   # _talks
   - scope:
