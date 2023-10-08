@@ -1,12 +1,13 @@
 ---
 title: "Visual Navigation"
 excerpt: "Visual SLAM with multiple cameras (ongoing)  <br/><img src='/images/500x300.png'>"
+date: false
 collection: portfolio
 ---
 
 > _Since it's an ongoing project, please understand that I may not be able to provide detailed explanations here due to security concerns._
 
-This project's objective is to create a in-house visual SLAM module for small home and factory robots.
+This project's objective is to create a in-house visual SLAM module for small home robots and factory robots.
 
 A need for a solution enabling visual-only autonomous navigation, distinct from an existing 2D LiDAR solution, has been emerged with considerations for size and design of robot's body. Camera is design-friendly sensor because it has simpler structure and even cheaper price than LiDAR. Furthermore, visual information from cameras can be used for map reconstruction and pose estimation for 3D environment. Meanwhile, given the embedded platform's performance limitations, we have leaned toward classical algorithms.
 
