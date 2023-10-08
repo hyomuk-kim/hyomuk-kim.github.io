@@ -1,7 +1,6 @@
 ---
 title: "Visual Navigation"
 excerpt: "Visual SLAM with multiple cameras (ongoing)  <br/><img src='/images/500x300.png'>"
-date: false
 collection: portfolio
 ---
 
