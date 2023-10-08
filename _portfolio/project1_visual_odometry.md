@@ -1,6 +1,6 @@
 ---
 title: "Visual Navigation"
-excerpt: " <b>Visual SLAM with stereo camera (ongoing)</b> <br/><img src='/images/500x300.png'>"
+excerpt: " <b>Feature-based Visual Odometry with stereo camera (ongoing)</b> <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
@@ -16,9 +16,9 @@ There is a growing need for a solution that enables visual-only autonomous navig
 
 ### Approach
 
-To meet these requirements, we designed the generalized Visual SLAM architecture after evaluating various algorithms. This module is fundamentally feature-based and includes components such as visual odometry, local bundle adjustment, map management, and pose graph optimization. We introduced an extended structure to accommodate multiple sensor configurations.
+To meet these requirements, we designed the generalized and lightweight Visual SLAM architecture after evaluating various algorithms such as ORB-SLAM, Kimera and VINS. This module is fundamentally feature-based and includes components such as visual odometry, local bundle adjustment, map management, and pose graph optimization. We introduced an extended structure to accommodate multiple sensor configurations.
 
-This module processes image data from cameras through a ROS2 node, extracts features from an image pyramid, matches them for tracking based on descriptors, and optimizes the pose using a cost function for reprojection errors. In cases where the number of feature points is too low or optimization fails, the estimated pose from wheel odometry can optionally be used based on a certain weight. This process results in the creation of a sparse point clouds map (not being used for planning as of now) and provides an estimate of the robot's pose in 6 degrees of freedom.
+This module processes image data from cameras through a ROS2 node, extracts features from an image pyramid, matches them for tracking based on descriptors, and optimizes the pose using a cost function for reprojection errors with the automatic differentiation of Ceres or analytical derivatives. In cases where the number of feature points is too low or optimization fails, the estimated pose from wheel odometry can optionally be used based on a certain weight. This process results in the creation of a sparse point clouds map (not being used for planning as of now) and provides an estimate of the robot's pose in 6 degrees of freedom.
 
 To evaluate the module, we collected rosbag data recorded by our robot, simulating a variety of situations occurring in indoor environments. We measured the root mean square error (RMSE) for the robot's trajectory and compared it with the ground truth.
 
@@ -29,3 +29,5 @@ To evaluate the module, we collected rosbag data recorded by our robot, simulati
 * Previously, the structure was such that map points generated based on features were embedded within individual frames. To continuously update these map point positions to more accurately reflect their estimated depth as the number of frames observing them increased, a structural change was needed to facilitate global map management. This depth update is expected to prevent errors from accumulating in map points and improve the accuracy of the optimization process and pose estimation based on this reliable map.
 
 * A local bundle adjustment module was devised based on local keyframes window. Given our preference for a modular and non-circular structure, the visual odometry and local bundle adjustment modules initially exchanged keyframes and map points through a ROS2 node. This led to difficulties in sharing optimized maps between modules and inefficient data exchange between them. Consequently, we integrated these two modules into one, allowing them to operate in a multi-threaded manner. Additionally, we modified the process so that the addition of new map points and subsequent updates would occur within a single global map.
+
+* While initially considering only a rectified stereo camera, we are currently expanding our sensor framework to include multiple cameras. Additionally, even though we have already implemented the frontend, which includes visual odometry and local bundle adjustment, we are actively working to incorporate insights like the ones mentioned above to create a comprehensive visual SLAM module. Our goal is to ensure that the resulting map can be utilized for planning and can integrate semantic information into the map. To achieve this, we aim to develop a more structured and denser 3D map. As part of our ongoing development efforts, we are exploring various approaches, such as integrating different features like edges dynamically to handle featureless scenes and implementing an effective loop closing method to maintain a stable and consistent map.
