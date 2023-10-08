@@ -1,6 +1,6 @@
 ---
 title: "Neural Speech Synthesis"
-excerpt: "Speech Synthesis with deep neural networks  <br/><img src='/images/500x300.png'>"
+excerpt: " <b>Speech Synthesis with Deep Neural Networks</b> <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 

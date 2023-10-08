@@ -1,6 +1,6 @@
 ---
 title: "Brain-Machine Interfaces"
-excerpt: "Speech Imagery Recognition and Hand Gesture Recognition  <br/><img src='/images/500x300.png'>"
+excerpt: " <b>Speech Imagery Recognition and Hand Gesture Recognition</b> <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
