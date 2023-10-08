@@ -3,6 +3,5 @@ main:
   - title: "Projects"
     url: /portfolio/
 
-  - title: "Posts"
-    url: /year-archive/
- 
+  # - title: "Posts"
+  #   url: /year-archive/
