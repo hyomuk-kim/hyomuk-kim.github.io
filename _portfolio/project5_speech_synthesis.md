@@ -24,11 +24,11 @@ Let's briefly take a look at the models related to the vocoder that I have been 
 
 **WaveNet** models the conditional probability of each input audio data within a specific range of receptive fields up to the current time step to predict the next audio data point. To generate the original 16-bit audio data while simplifying the process, it employs an 8-bit [_$/mu$-law companding_](https://en.wikipedia.org/wiki/%CE%9C-law_algorithm) algorithm. This algorithm predicts a categorical distribution by considering the probabilities for each integer in the range of -127 to 128. The model consists of a chain of residual blocks including dilated causal convolution layers and gated activation units, which makes it possess the characteristics of an autoregressive model.
 
-<p style="text-align: center;">![Residual Blocks](/images/residual_block.png "Residual Blocks")<br/>
-<span style="color:gray">Residual blocks</span></p>
+<div style="text-align:center"><img src="/images/residual_block.png" /></div><br/>
+<p style="text-align: center;"><span style="color:gray">Residual blocks</span></p>
 
-<p style="text-align: center;">![Dilated Causal Convolution layers](/images/dilated_causal_convolution.gif "Dilated Causal Convolution layers")<br/>
-<span style="color:gray">Dilated Causal Convolution layers</span></p>
+<div style="text-align:center"><img src="/images/dilated_causal_convolution.gif" /></div><br/>
+<p style="text-align: center;"><span style="color:gray">Dilated Causal Convolution layers</span></p>
 
 <!-- Parallel WN -->
 WaveNet was capable of generating high-quality speech, but due to its sequential inference process, it had a slow generation speed compared to parallel processing in training, which limited its real-time applications.
@@ -42,8 +42,8 @@ While Parallel WaveNet has overcome the slow generation process of WaveNet, the 
 
 In the diagram below, it consists of a _sample rate network_ operating at 16kHz and a _frame rate network_ that applies a conditioning vector every frame at 100Hz. It takes an input of 20 features, which is a combination of 18 Bark-scale cepstral coefficients and 2 pitch parameters (period, correlation). The _LPC_ block is used to calculate prediction coefficients from these features, and the _filter_ block labeled as _"compute prediction"_ calculates predictions from past samples and the coefficients computed by the _LPC_ block. Then, the network is trained to predict the difference between the next sample and the prediction.
 
-<p style="text-align: center;">![LPCNet Structure](/images/lpcnet_structure.png "LPCNet Structure")<br/>
-<span style="color:gray">LPCNet Structure</span></p>
+<div style="text-align:center"><img src="/images/lpcnet_structure.png" /></div><br/>
+<p style="text-align: center;"><span style="color:gray">LPCNet Structure</span></p>
 
 Based on this structure, LPCNet demonstrated good performance in subjective quality tests compared to WaveRNN+. It was also able to reduce complexity to a level that could run on a single smartphone core.
 
