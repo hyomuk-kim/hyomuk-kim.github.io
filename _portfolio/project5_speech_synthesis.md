@@ -15,17 +15,22 @@ The aim of this project is to develop a commercially viable and efficient deep l
 During a period when entertaining demonstrations mimicking celebrities' voices using deep learning-based open-source tools were on the rise, we aimed to replace our already commercialized parametric TTS model with a high-quality yet lightweight neural synthesis solution, which is possible to serve as AI voice synthesizer for Bixby. This new solution needed to be capable of serving as an AI voice synthesis engine for Bixby.
 
 ### Approach
-Before moving towards a complete end-to-end model, we conducted research by incrementally developing a neural speech synthesis model that combined an Acoustic Model based on [Tacotron](https://google.github.io/tacotron/)<sup>[1]</sup> or DC-TTS<sup>[2]</sup> with Vocoder Models like [WaveNet](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)<sup>[3]</sup>, [Parallel WaveNet](https://www.deepmind.com/blog/high-fidelity-speech-synthesis-with-wavenet)<sup>[4]</sup>, WaveRNN<sup>[5]</sup>, or LPCNet<sup>[6]</sup>.
+Before moving towards a complete end-to-end model, we conducted research by incrementally developing a neural speech synthesis model that combined an **Acoustic Model** based on [_Tacotron_](https://google.github.io/tacotron/)<sup>[1]</sup> or _DC-TTS_<sup>[2]</sup> with a **Vocoder Model** like [_WaveNet_](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)<sup>[3]</sup>, [_Parallel WaveNet_](https://www.deepmind.com/blog/high-fidelity-speech-synthesis-with-wavenet)<sup>[4]</sup>, _WaveRNN_<sup>[5]</sup>, or _LPCNet_<sup>[6]</sup>.
 
-Acoustic model gets sequential texts as inputs and outputs the inferred mel spectrogram with attention-based seq2seq model. Then, vocoder model receives the mel spectrogram and transforms this to speech data with the dilated causal convolution layers.
+The acoustic model takes sequential texts as inputs and produces the inferred mel spectrogram using an attention-based seq2seq model. Subsequently, the vocoder model takes the mel spectrogram and converts it into speech data using residual blocks including dilated causal convolution layers.
+
+![Residual Blocks](/images/residual_block.png "Residual Blocks")
+<span style="color:gray">       Residual blocks</span>
 
 ![Dilated Causal Convolution layers](/images/dilated_causal_convolution.gif "Dilated Causal Convolution layers")
+<span style="color:gray">       Dilated Causal Convolution layers</span>
 
 ### Insights & Further Considerations
-* 
-*
+* aa
 
-> I became interested in pursuing a career as a researcher while working on the speech synthesis project. Furthermore, through collaborating on AI voice support for robots, I have continued to nurture the same desire I had when working on TV system development – the exploration of dynamic systems. These thoughts have become intertwined with my passion for self-maintenance and track driving, combined with my love for cars, which has further fueled my strong desire for research in robotics and autonomous driving. So, in response to the request for resources to develop a multimodal interaction framework for "robots" and AR/VR, I decided to move to the AI Center with the hope of making a meaningful contribution to the robot system...
+* bb
+
+### References
 
 [1] Wang, Yuxuan, et al. "[Tacotron: Towards End-to-End Speech Synthesis.](https://arxiv.org/abs/1703.10135)" Interspeech 2017 (2017).
 
@@ -38,3 +43,7 @@ Acoustic model gets sequential texts as inputs and outputs the inferred mel spec
 [5] Kalchbrenner, Nal, et al. "[Efficient neural audio synthesis.](https://proceedings.mlr.press/v80/kalchbrenner18a.html)" International Conference on Machine Learning. PMLR, 2018.
 
 [6] Valin, Jean-Marc, and Jan Skoglund. "[LPCNet: Improving neural speech synthesis through linear prediction.](https://ieeexplore.ieee.org/abstract/document/8682804)" ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2019.
+
+***
+
+> I became interested in pursuing a career as a researcher while working on the speech synthesis project. Furthermore, through collaborating on AI voice support for robots, I have continued to nurture the same desire I had when working on TV system development – the exploration of dynamic systems. These thoughts have become intertwined with my passion for self-maintenance and track driving, combined with my love for cars, which has further fueled my strong desire for research in robotics and autonomous driving. So, in response to the request for resources to develop a multimodal interaction framework for "robots" and AR/VR, I decided to move to the AI Center with the hope of making a meaningful contribution to the robot system...
