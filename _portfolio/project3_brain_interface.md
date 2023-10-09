@@ -1,8 +1,9 @@
 ---
 title: "Brain-Machine Interfaces"
-excerpt: " <b>Speech Imagery Recognition and Hand Gesture Recognition</b> <br/><img src='/images/500x300.png'>"
+excerpt: " <b>Speech Imagery Recognition and Hand Gesture Recognition</b>"
 collection: portfolio
 ---
+<!-- <br/><img src='/images/500x300.png'> -->
 
 _Information_
 * _Sep. 2020 ~ Apr. 2021 @Global AI Center with 4 members._

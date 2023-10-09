@@ -1,8 +1,9 @@
 ---
 title: "Visual Navigation"
-excerpt: " <b>Feature-based Visual Odometry with stereo camera (ongoing)</b> <br/><img src='/images/500x300.png'>"
+excerpt: " <b>Feature-based Visual Odometry with stereo camera (ongoing)</b>"
 collection: portfolio
 ---
+<!-- <br/><img src='/images/500x300.png'> -->
 
 _Information_
 * _Jan. 2022 ~ Present @Robot Intelligence Team with 3 members._ 

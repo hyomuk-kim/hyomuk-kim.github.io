@@ -1,8 +1,9 @@
 ---
 title: "Monte Carlo Localization"
-excerpt: " <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b> <br/><img src='/images/500x300.png'>"
+excerpt: " <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b>"
 collection: portfolio
 ---
+<!-- <br/><img src='/images/500x300.png'> -->
 
 _Information_
 * _Apr. 2021 ~ Dec. 2021 @Robot Intelligence Team with 3 members._ 

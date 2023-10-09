@@ -1,8 +1,9 @@
 ---
 title: "Neural Speech Synthesis"
-excerpt: " <b>For the deployment of AI voice services using deep generative models.</b> <br/><img src='/images/500x300.png'>"
+excerpt: " <b>For the deployment of AI voice services using deep generative models.</b>"
 collection: portfolio
 ---
+<!-- <br/><img src='/images/500x300.png'> -->
 
 _Information_
 * _Apr. 2018 ~ Jan. 2020 @Language & Voice Team with 10 members_
@@ -17,13 +18,25 @@ During a period when entertaining demonstrations mimicking celebrities' voices u
 ### Approach
 Before moving towards a complete end-to-end model, we conducted research by incrementally developing a neural speech synthesis model that combined an **Acoustic Model** based on [_Tacotron_](https://google.github.io/tacotron/)<sup>[1]</sup> or _DC-TTS_<sup>[2]</sup> with a **Vocoder Model** like [_WaveNet_](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)<sup>[3]</sup>, [_Parallel WaveNet_](https://www.deepmind.com/blog/high-fidelity-speech-synthesis-with-wavenet)<sup>[4]</sup>, _WaveRNN_<sup>[5]</sup>, or _LPCNet_<sup>[6]</sup>.
 
-The acoustic model takes sequential texts as inputs and produces the inferred mel spectrogram using an attention-based seq2seq model. Subsequently, the vocoder model takes the mel spectrogram and converts it into speech data using residual blocks including dilated causal convolution layers.
+The acoustic model takes sequential texts as inputs and produces the inferred mel spectrogram using an attention-based seq2seq model. Subsequently, the vocoder model takes the mel spectrogram and converts it into speech data using a probabilistic generative model.
 
-![Residual Blocks](/images/residual_block.png "Residual Blocks")
-<span style="color:gray">       Residual blocks</span>
+Let's briefly take a look at the models related to the vocoder that I have been involved in developing.
 
-![Dilated Causal Convolution layers](/images/dilated_causal_convolution.gif "Dilated Causal Convolution layers")
-<span style="color:gray">       Dilated Causal Convolution layers</span>
+**WaveNet** models the conditional probability of each input audio data within a specific range of receptive fields up to the current time step to predict the next audio data point. To generate the original 16-bit audio data while simplifying the process, it employs an 8-bit [_$/mu$-law companding_](https://en.wikipedia.org/wiki/%CE%9C-law_algorithm) algorithm. This algorithm predicts a categorical distribution by considering the probabilities for each integer in the range of -127 to 128. The model consists of a chain of residual blocks including dilated causal convolution layers and gated activation units, which makes it possess the characteristics of an autoregressive model.
+
+![Residual Blocks](/images/residual_block.png "Residual Blocks")<br/>
+<span style="color:gray">
+  <p style="text-align: center;">Residual blocks</p>
+</span>
+
+![Dilated Causal Convolution layers](/images/dilated_causal_convolution.gif "Dilated Causal Convolution layers")<br/>
+<span style="color:gray">
+  <p style="text-align: center;">Dilated Causal Convolution layers</p>
+</span>
+
+Parallel WN 차별점
+
+LPCNet 차별점
 
 ### Insights & Further Considerations
 * aa
