@@ -6,9 +6,9 @@ collection: portfolio
 <!-- <br/><img src='/images/500x300.png'> -->
 
 _Information_
-* _Jan. 2022 ~ Present @Robot Intelligence Team with 3 members._ 
+* _Jan. 2022 ~ Present at Robot Intelligence Team with 3 members._ 
 
-> _Since it's an ongoing project, please understand that I may not be able to provide detailed explanations here due to security concerns._
+> _Since this is an ongoing project, please understand that I can only provide a somewhat abstract description and cannot go into detailed explanations here due to security concerns._
 
 ### Goal
 

@@ -6,7 +6,7 @@ collection: portfolio
 <!-- <br/><img src='/images/500x300.png'> -->
 
 _Information_
-* _Apr. 2021 ~ Dec. 2021 @Robot Intelligence Team with 3 members._ 
+* _Apr. 2021 ~ Dec. 2021 at Robot Intelligence Team with 3 members._ 
 
 ### Goal
 
