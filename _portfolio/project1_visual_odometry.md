@@ -4,6 +4,9 @@ excerpt: " <b>Feature-based Visual Odometry with stereo camera (ongoing)</b> <br
 collection: portfolio
 ---
 
+_Information_
+* _Jan. 2022 ~ Present @Robot Intelligence Team with 3 members._ 
+
 > _Since it's an ongoing project, please understand that I may not be able to provide detailed explanations here due to security concerns._
 
 ### Goal
@@ -28,6 +31,8 @@ To evaluate the module, we collected rosbag data recorded by our robot, simulati
 
 * Previously, the structure was such that map points generated based on features were embedded within individual frames. To continuously update these map point positions to more accurately reflect their estimated depth as the number of frames observing them increased, a structural change was needed to facilitate global map management. This depth update is expected to prevent errors from accumulating in map points and improve the accuracy of the optimization process and pose estimation based on this reliable map.
 
-* A local bundle adjustment module was devised based on local keyframes window. Given our preference for a modular and non-circular structure, the visual odometry and local bundle adjustment modules initially exchanged keyframes and map points through a ROS2 node. This led to difficulties in sharing optimized maps between modules and inefficient data exchange between them. Consequently, we integrated these two modules into one, allowing them to operate in a multi-threaded manner. Additionally, we modified the process so that the addition of new map points and subsequent updates would occur within a single global map.
+* A local bundle adjustment module was devised based on local keyframes window. Given our preference for a modular and non-circular structure, the visual odometry and local bundle adjustment modules initially exchanged keyframes and map points through a ROS2 node. This led to difficulties in sharing the optimized map between modules and inefficient data exchange between them. Consequently, we integrated these two modules into one, allowing them to operate in a multi-threaded manner, through which we modified the process so that the addition of new map points and subsequent updates would occur within a single global map.
 
-* While initially considering only a rectified stereo camera, we are currently expanding our sensor framework to include multiple cameras. Additionally, even though we have already implemented the frontend, which includes visual odometry and local bundle adjustment, we are actively working to incorporate insights like the ones mentioned above to create a comprehensive visual SLAM module. Our goal is to ensure that the resulting map can be utilized for planning and can integrate semantic information into the map. To achieve this, we aim to develop a more structured and denser 3D map. As part of our ongoing development efforts, we are exploring various approaches, such as integrating different features like edges dynamically to handle featureless scenes and implementing an effective loop closing method to maintain a stable and consistent map.
+* While initially considering only a rectified stereo camera, we are currently expanding our sensor framework to include multiple cameras. Additionally, even though we have already implemented the frontend, which includes visual odometry and local bundle adjustment, we are actively working to incorporate insights like the ones mentioned above to create a comprehensive visual SLAM module.
+
+* We eventually intend to ensure that the resulting map can be utilized for planning and can integrate semantic information into the map. To achieve this, we aim to work it up into a denser and more structured 3D map. As part of this, we are exploring various approaches, such as integrating different features like edges dynamically to handle featureless scenes and implementing an effective loop closing method to maintain a stable and consistent map.
