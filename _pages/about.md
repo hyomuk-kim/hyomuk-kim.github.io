@@ -10,7 +10,7 @@ redirect_from:
 I am a staff engineer and roboticist at Robot Center, [Samsung Research](https://research.samsung.com) working on mobile robot navigation with [Mid-Eum Choi](https://linkedin.com/in/mid-eum-choi-ba106017a) and [Junghyun Kwon](https://linkedin.com/in/junghyun-kwon).
 
 Recently I have been diving deep into **Visual Navigation** for 3D localization, mapping, and robust navigation.
-I also endeavored to perform research projects on neural networks for Brain-Machine Interface advised by [Daniel D. Lee](https://www.ece.cornell.edu/faculty-directory/daniel-dongyuel-lee) and Neural Speech Synthesis engine advised by [Chanwoo Kim](https://linkedin.com/in/chanwoo-kim-2628a622) at Global AI Center.
+I also endeavored to perform research projects on neural networks for Brain-Machine Interface advised by [Inchul Hwang](https://linkedin.com/in/inchul-hwang-76463831) and [Daniel D. Lee](https://www.ece.cornell.edu/faculty-directory/daniel-dongyuel-lee) and Neural Speech Synthesis engine advised by [Chanwoo Kim](https://linkedin.com/in/chanwoo-kim-2628a622) at Global AI Center.
 
 Previously, I worked as a hardware engineer for 5 years, during which I developed circuit systems for various TV models at the Visual Display Division of [Samsung Electronics](https://www.samsung.com). Additionally, I served as a planner and manager for a year, leading a 6-member team in a project focused on a user content archive platform utilizing multi-device interfaces at [C-Lab](https://samsungclab.com/).
 

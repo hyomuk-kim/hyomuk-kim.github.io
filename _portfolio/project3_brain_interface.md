@@ -5,8 +5,8 @@ collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
 
-_Information_
-* _Sep. 2020 ~ Apr. 2021 at Global AI Center with 4 members._
+> Info.  
+  _Sep. 2020 ~ Apr. 2021 at Global AI Center with 4 members._
 
 ### Goal
 
