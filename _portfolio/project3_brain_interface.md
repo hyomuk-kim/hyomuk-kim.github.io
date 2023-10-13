@@ -1,6 +1,6 @@
 ---
 title: "Brain-Machine Interfaces"
-excerpt: " <b>Speech Imagery Recognition and Hand Gesture Recognition</b>"
+excerpt: " <b>Binary Brain-state Classifier using EEG and Hand Gesture Recognition using EMG</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
