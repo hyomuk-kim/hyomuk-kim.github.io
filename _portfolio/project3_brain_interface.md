@@ -1,6 +1,6 @@
 ---
 title: "Brain-Machine Interfaces"
-excerpt: " <b>Speech Imagery Recognition and Hand Gesture Recognition</b>"
+excerpt: " <b>Binary Brain-state Classifier and Hand Gesture Recognition</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
