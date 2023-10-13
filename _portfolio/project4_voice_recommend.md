@@ -23,16 +23,16 @@ As ambient AI becomes increasingly integrated into our daily lives through smart
 Our approach encompasses several key steps:
 
 1. Goal and Utterance Extractor (Capsule Learning)
-  To extract goal(interaction) and utterance lists based on trained speech data in capsules.
+  Extracts goal(interaction) and utterance lists based on trained speech data in capsules.
 
 2. Tag Extractor
-  To remove unnecessary tags by filtering them based on collected logs for all interactions
+  Removes unnecessary tags by filtering them based on collected logs for all interactions
 
 3. Dictionary Generator
-  To build a dictionary for each goal based on the embedding vector of tag messages' impact factor (TF-IDF Score).
+  Builds a dictionary for each goal based on the embedding vector of tag messages' impact factor (TF-IDF Score).
 
 4. End Point Detector
-  To extract logs that correspond to the endpoint of actions for each goal after tag-based filtering
+  Extracts logs that correspond to the endpoint of actions for each goal after tag-based filtering
 
 5. Real-Time Operation
    - Log Filtering: Tag-based filtering is applied to user input in real time. Logs that match the user's actions are extracted and saved in a queue. The endpoint of actions is detected during this process.
