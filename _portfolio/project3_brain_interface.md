@@ -9,17 +9,19 @@ collection: portfolio
 > Info.  
   _Sep. 2020 ~ Apr. 2021 at Global AI Center with 4 members._
 
-### Goal
+## Goal
 
 The goal of this project was to develop a Brain-Machine Interface prototype for Proof-of-Concept using EEG or EMG to sense, interpret, and recognize specific linguistic imagery or body movements, enabling device control based on neural signals for the exploration and validation of future interfaces.
 
-### Need
+## Need
 
 Various wearable devices, including smart watches and smart glasses, are gradually emerging in the market. Furthermore, AI-powered services have evolved from AI speakers to recent forms like LLM, expanding their influence. Consequently, there is an increasing demand for multimodal interactions that integrate text, speech, images, and more. This trend underscores the growing importance of exploring innovative methods for controlling existing mobile devices and confirming the potential for more convenient, as well as task-optimized, interaction techniques. This development aligns with the broader context of my research portfolio, reflecting my engagement with cutting-edge technological advancements and their real-world implications.
 
 In connection with this, as I investigated relevant trends, I found that some major IT companies, such as Apple, Meta and Microsoft, were actively researching new interface technologies. Additionally, there were ongoing studies related to interpreting biometric signals like brainwaves. For our innovative project at the AI Center and as part of our exploration into future interfaces, we chose the Brain-Machine Interface as the subject. Initially, our research focused on the interpretation and recognition of speech imagery based on [_electroencephalography_](https://en.wikipedia.org/wiki/Electroencephalography)(EEG) signals.
 
-### Approach -- Binary Brain-state Classifier using EEG
+## Approach & Insights 
+
+### Approach &mdash; Binary Brain-state Classifier using EEG
 
 Leveraging our team's expertise and experience in developing voice-based interfaces such as speech recognition and synthesis, we embarked on the project known as the _'Mind Reading User Interface'._ In this project, we aimed to achieve the ideal target of implementing mind-based wake-up functionality for AI agents, which could be realized with _Speech Imagery_. Considering the typical design of AR glasses and VR headsets, which typically encompass the front and sides of the head with a band, we envisioned that these future products would provide ample space for attaching sensors. While, at the time, companies like Neuralink were actively developing invasive BCIs, we aimed for a more accessible, non-invasive solution.
 
@@ -45,7 +47,7 @@ Here are the steps we followed:
 - Training classifier based on K-means clustering, and then verifying the classifier for labeled data
 - Performance evaluation with validation data collected from in-house testers
 
-### Insights -- Binary Brain-state Classifier using EEG
+### Insights &mdash; Binary Brain-state Classifier using EEG
 
 As expected from the outset, this project was quite challenging, and it proved to be difficult to achieve meaningful classification performance through evaluations and demonstrations.
 
@@ -56,13 +58,11 @@ Calibration Issue: We anticipated that there would be consistent patterns in bra
 In conclusion, we came to realize that there are substantial limitations in detecting meaningful differences in signal interpretation under constraints related to sensor types and quantities, targeting a specific device. After multiple validations and demonstrations, we acknowledged the considerable gap between reality and our ideals. Following the advice of our director, Prof. Daniel D. Lee, we decided to pivot our focus towards a more pragmatic direction.
 
 
-### Approach -- Hand Gesture Recognition using EMG
+### Approach &mdash; Hand Gesture Recognition using EMG
 
 T.B.A
 
-### Insights -- Hand Gesture Recognition using EMG
-
-T.B.A
-
+***
+</br>
 
 > During my involvement in the research project on EMG signals, I unexpectedly came across a job posting for the Robot Center. Fueled by my passion for robotics research, I decided to seize the opportunity to transfer to the new department, leaving my regrets behind.
