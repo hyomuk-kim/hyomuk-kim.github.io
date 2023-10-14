@@ -1,6 +1,6 @@
 ---
 title: "Monte Carlo Localization"
-excerpt: " <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b>"
+excerpt: "<span style="color:gray"><i>Apr. 2021 ~ Dec. 2021 @ Robot Intelligence Team</i></span><br> <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
@@ -34,15 +34,27 @@ The objective of this project was to perform a comprehensive and in-depth refact
 
   _Concept and implementation_
 
+  This model plays a important role in estimating the likelihood of different robot poses given sensor measurements. The model defines the sensor model, including details about sensor characteristics, such as noise, range, and field of view. It represents how well the predicted sensor readings (based on the particle's pose) match the actual sensor measurements. The model can be represented as the conditional probability $p(z_t | x_t, m)$ of observing the actual sensor measurements $z_t$ given the particle's pose $x_t$ in the map $m$. The probability is ideally the product of the individual measurement likelihoods, $\prod_{k=1}^K p(z_t^k | x_t, m)$.
+
+  For each particle's pose, the expected sensor readings are calculated to determine what sensor data would be expected to receive if the robot were at that pose. Then, the particles are evaluated by comparing with the actual sensor measurements as the ground truth. The likelihood function is needed to quantify the similarity between them. We modeled the function based on our LiDAR's characteristics modifying the probability distributions proposed in the book <sup>[1]</sup>. It gives the probability of observing the actual measurements given a particle's pose. Further, it is also used in the resampling step to update particle weights and estimate the robot's pose accurately in real time. I found that a well-defined and accurate observation model is critical for the success of MCL in robot localization tasks.
+
   > **LiDAR performance profiling**
     T.B.A
 
   > **Beam Model Test**
     T.B.A
 
+  > an accurate model may require state variables that we might not know
+(such as the surface material)
+
 * Resampling
 
   _Concept and implementation_
+  **Resampling Step**:
+  In the resampling step of MCL, you'll use the likelihood computed in the previous step to assign probabilities to each particle. Particles with poses that generate sensor readings that closely match the actual measurements will have higher probabilities of being selected during resampling.
+
+  **Normalization**:
+  After assigning probabilities to particles, it's essential to normalize them so that they sum to 1. This step ensures that the particle weights represent valid probability values.
 
   In the resampling process, it is essential to dynamically adjust the shape of the particle distribution or the number of particles at each step while accurately reflecting the uncertainty. However, this was not the case in the previous approach. To address this, we implemented the proposed KLD resampling as an Adaptive Particle Filter <sup>[3]</sup>. When observations are insufficient, we aimed for increased variance and a higher number of particles. Conversely, when observations are abundant, reducing uncertainty, we desired a narrower particle distribution with fewer particles for efficient computation.
 

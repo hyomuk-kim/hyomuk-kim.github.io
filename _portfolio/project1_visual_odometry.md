@@ -1,6 +1,6 @@
 ---
 title: "Visual Navigation"
-excerpt: " <b>Feature-based Visual Odometry with stereo camera (ongoing)</b>"
+excerpt: "<span style="color:gray"><i>Jan. 2022 ~ Present (ongoing) @ Robot Intelligence Team</i></span><br> <b>Feature-based Visual Odometry with stereo camera</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->

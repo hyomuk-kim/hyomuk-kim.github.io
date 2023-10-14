@@ -1,6 +1,6 @@
 ---
 title: "Brain-Machine Interfaces"
-excerpt: " <b>Binary Brain-state Classifier using EEG and Hand Gesture Recognition using EMG</b>"
+excerpt: "<span style="color:gray"><i>Sep. 2020 ~ Apr. 2021 @ Global AI Center</i></span><br> <b>Binary Brain-state Classifier using EEG and Hand Gesture Recognition using EMG</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
