@@ -1,6 +1,6 @@
 ---
 title: "Monte Carlo Localization"
-excerpt: "<span style="color:gray"><i>Apr. 2021 ~ Dec. 2021 @ Robot Intelligence Team</i></span><br> <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b>"
+excerpt: "<span style="color:gray"><i>Apr. 2021 ~ Dec. 2021 @ Robot Intelligence Team</i></span>  <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
@@ -14,10 +14,12 @@ The objective of this project was to perform a comprehensive and in-depth refact
 
 ### Approaches & Insights
 
-* Monte Carlo Localization Fundamentals  
+* Monte Carlo Localization Fundamentals
+
   Monte Carlo Localization (MCL) is an advanced algorithm based on the Bayesian filter and the particle filter. Its primary purpose is to probabilistically estimate a robot's pose within a predefined map. MCL consists of three main steps: prediction, which utilizes a motion model; measurement, which involves an observation model; and resampling. In our specific application, we use a motion model based on the wheel odometry of a non-holonomic mobile robot, and we gather sensor observations from point scans obtained through a 2D LiDAR. 
 
-* Motion Model  
+* Motion Model
+
   This model with regards to robot's kinematics serves as state transition model, represented as the posterior $p(x_t | u_t, x_{t-1})$ according to motion control $u_t$.
   The state variable $x$ represents the robot's pose, defined as {x, y, theta}, which includes position and orientation based on the kinematics of a 2D mobile robot. The wheel odometry model predicts how the pose changes ($\Delta x, \Delta y, \Delta \theta$) in response to wheel movements.
 
@@ -32,36 +34,23 @@ The objective of this project was to perform a comprehensive and in-depth refact
 
 * Observation Model
 
-  _Concept and implementation_
-
   This model plays a important role in estimating the likelihood of different robot poses given sensor measurements. The model defines the sensor model, including details about sensor characteristics, such as noise, range, and field of view. It represents how well the predicted sensor readings (based on the particle's pose) match the actual sensor measurements. The model can be represented as the conditional probability $p(z_t | x_t, m)$ of observing the actual sensor measurements $z_t$ given the particle's pose $x_t$ in the map $m$. The probability is ideally the product of the individual measurement likelihoods, $\prod_{k=1}^K p(z_t^k | x_t, m)$.
 
   For each particle's pose, the expected sensor readings are calculated to determine what sensor data would be expected to receive if the robot were at that pose. Then, the particles are evaluated by comparing with the actual sensor measurements as the ground truth. The likelihood function is needed to quantify the similarity between them. We modeled the function based on our LiDAR's characteristics modifying the probability distributions proposed in the book <sup>[1]</sup>. It gives the probability of observing the actual measurements given a particle's pose. Further, it is also used in the resampling step to update particle weights and estimate the robot's pose accurately in real time. I found that a well-defined and accurate observation model is critical for the success of MCL in robot localization tasks.
 
   > **LiDAR performance profiling**
-    T.B.A
+    We wanted to assess the performance limitations of LiDAR and determine the extent to which the characteristics of range, field of view, and noise align with the information provided in the datasheet. Additionally, we conducted LiDAR profiling due to the range quantization issue that arises when measuring distances up to the maximum range. In this phenomenon, when the robot approaches or moves away from a flat wall while looking at it vertically, the wall, which should be represented as a continuous straight line, appears to scatter into discrete points as if noise is introduced. This intermittently occurs from around a 10-meter point, becoming more pronounced from approximately 16 meters. To account for this uncertainty, we conducted these tests for various rotation frequencies to examine the distance-dependent noise characteristics of LiDAR measurements and incorporate such uncertainty into the sensor model.
 
   > **Beam Model Test**
     T.B.A
 
-  > an accurate model may require state variables that we might not know
-(such as the surface material)
-
 * Resampling
-
-  _Concept and implementation_
-  **Resampling Step**:
-  In the resampling step of MCL, you'll use the likelihood computed in the previous step to assign probabilities to each particle. Particles with poses that generate sensor readings that closely match the actual measurements will have higher probabilities of being selected during resampling.
-
-  **Normalization**:
-  After assigning probabilities to particles, it's essential to normalize them so that they sum to 1. This step ensures that the particle weights represent valid probability values.
+  When resampling, we use the likelihood, computed in the previous step to assign probabilities to each particle. States that generate sensor readings compatible with the actual measurements will have higher probabilities of being selected during resampling.
 
   In the resampling process, it is essential to dynamically adjust the shape of the particle distribution or the number of particles at each step while accurately reflecting the uncertainty. However, this was not the case in the previous approach. To address this, we implemented the proposed KLD resampling as an Adaptive Particle Filter <sup>[3]</sup>. When observations are insufficient, we aimed for increased variance and a higher number of particles. Conversely, when observations are abundant, reducing uncertainty, we desired a narrower particle distribution with fewer particles for efficient computation.
 
-  (KLD resampling takes a more adaptive and data-driven approach. Instead of using a fixed number of particles, it adjusts the number of particles dynamically based on the information content of the observations.)
-
-  > **Particles exhibiting a linear distribution**
-  Strangely, the particles appear to have non-uniform, linear distributions in the space rather than the typical circular patterns. To address this issue, we attempted approach A and resolved it through method B.
+  > **Particles exhibiting a line shape distribution**
+  In the previous version of the MCL module, there was an issue where particles appeared in a discontinuous line shape rather than the typical continuous oval distribution. This problem arose due to the misconfiguration of the noise factor in the motion model, specifically, the translation-to-rotation noise, which was incorrectly set to 0. Consequently, during the resampling process, only particles aligned with the left and right walls and parallel to them would survive, while particles not aligned with the robot's direction were entirely disregarded. By adjusting the value to an appropriate setting, we were able to achieve a normal particle distribution and experience the impact of noise parameter tuning.
 
 ### Outcome
 

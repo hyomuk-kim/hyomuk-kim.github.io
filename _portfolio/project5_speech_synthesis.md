@@ -1,6 +1,6 @@
 ---
 title: "Neural Speech Synthesis"
-excerpt: "<span style="color:gray"><i>Apr. 2018 ~ Jan. 2020 @ Language & Voice Team</i></span><br> <b>For the deployment of AI voice services using deep generative models.</b>"
+excerpt: " <b>For the deployment of AI voice services using deep generative models.</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
