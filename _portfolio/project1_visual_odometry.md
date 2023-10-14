@@ -32,19 +32,19 @@ To evaluate the module, we collected rosbag data recorded by our robot, simulati
 
 ## Insights & Further Considerations
 
-* **Ensuring Robust Feature Tracking and Descriptor Matching**
+* **Ensuring Robust Feature Tracking and Descriptor Matching**  
   It was crucial that the features tracked from each keyframe to the following frames could robustly match and persist across them. To ensure this, accurate temporal matching for the same features across multiple frames was essential. Therefore, we closely examined the process to achieve robust descriptor matching and had to address and improve problematic factors.
 
-* **Enhancing Map Point Position Accuracy**
+* **Enhancing Map Point Position Accuracy**  
   Previously, the structure was such that map points generated based on features were embedded within individual frames. To continuously update these map point positions to more accurately reflect their estimated depth as the number of frames observing them increased, a structural change was needed to facilitate global map management. This depth update is expected to prevent errors from accumulating in map points and improve the accuracy of the optimization process and pose estimation based on this reliable map.
 
-* **Integration for Enhanced Efficiency**
+* **Integration for Enhanced Efficiency**  
   A local bundle adjustment module was devised based on local keyframes window. Given our preference for a modular and non-circular structure, the visual odometry and local bundle adjustment modules initially exchanged keyframes and map points through a ROS2 node. This led to difficulties in sharing the optimized map between modules and inefficient data exchange between them. Consequently, we integrated these two modules into one, allowing them to operate in a multi-threaded manner, through which we modified the process so that the addition of new map points and subsequent updates would occur within a single global map.
 
-* **Expanding Sensors and Improving Modules**
+* **Expanding Sensors and Improving Modules**  
   While initially considering only a rectified stereo camera, we are currently expanding our sensor framework to include multiple cameras. Additionally, even though we have already implemented the frontend, which includes visual odometry and local bundle adjustment, we are actively working to incorporate insights like the ones mentioned above to create a comprehensive visual SLAM module.
 
-* **Enhancing 3D Map for Planning and Semantic Integration**
+* **Enhancing 3D Map for Planning and Semantic Integration**  
   We eventually intend to ensure that the resulting map can be utilized for planning and can integrate semantic information into the map. To achieve this, we aim to work it up into a denser and more structured 3D map. As part of this, we are exploring various approaches, such as integrating different features like edges dynamically to handle featureless scenes and implementing an effective loop closing method to maintain a stable and consistent map.
 
 ***

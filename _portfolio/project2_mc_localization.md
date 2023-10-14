@@ -15,14 +15,14 @@ The objective of this project was to perform a comprehensive and in-depth refact
 
 ## Approaches & Insights
 
-* **Monte Carlo Localization Fundamentals**
+- **Monte Carlo Localization Fundamentals**
 
   Monte Carlo Localization (MCL) is an advanced algorithm based on the Bayesian filter and the particle filter. Its primary purpose is to probabilistically estimate a robot's pose within a predefined map. MCL consists of three main steps: prediction, which utilizes a motion model; measurement, which involves an observation model; and resampling. In our specific application, we use a motion model based on the wheel odometry of a non-holonomic mobile robot, and we gather sensor observations from point scans obtained through a 2D LiDAR.
 
   <div style="text-align:center"><img src="/images/pseudo_mcl.JPG" /></div>
 <p style="text-align: center;"><span style="color:gray">MCL Algorithm (<i>source: Probabilistic Robotics</i><sup>[1]</sup>)</span></p>
 
-* **Motion Model**
+- **Motion Model**
 
   This model with regards to robot's kinematics serves as state transition model, represented as the posterior $p(x_t | u_t, x_{t-1})$ according to motion control $u_t$.
   The state variable $x$ represents the robot's pose, defined as {x, y, theta}, which includes position and orientation based on the kinematics of a 2D mobile robot. The wheel odometry model predicts how the pose changes ($\Delta x, \Delta y, \Delta \theta$) in response to wheel movements.
@@ -43,7 +43,7 @@ The objective of this project was to perform a comprehensive and in-depth refact
     In various real experiments conducted in specific environments, such as uphill terrain, I've noticed the significant influence of these noise parameters on the robot's localization performance. Occasionally, these physical conditions introduce additional noise into odometry, which deviates from typical scenarios. Variations in the physical state and the reliability of driver-provided values can also lead to differences, even among robots of the same type. Furthermore, alterations in robot hardware can cause increased odometry noise due to mechanical characteristics. Therefore, it is vital to validate the fundamental performance of odometry and carry out precise parameter tuning customized for the particular robot in question.
 
   
-* **Observation Model**
+- **Observation Model**
 
   This model plays a important role in estimating the likelihood of different robot poses given sensor measurements. The model defines the sensor model, including details about sensor characteristics, such as noise, range, and field of view. It represents how well the predicted sensor readings (based on the particle's pose) match the actual sensor measurements. The model can be represented as the conditional probability $p(z_t \mid x_t, m)$ of observing the actual sensor measurements $z_t$ given the particle's pose $x_t$ in the map $m$. The probability is ideally the product of the individual measurement likelihoods, $\prod_{k=1}^K p(z_t^k \mid x_t, m)$.
 
@@ -60,8 +60,7 @@ The objective of this project was to perform a comprehensive and in-depth refact
   - **Likelihood Field Enhancement**  
     T.B.A
 
-  
-* **Resampling**
+- **Resampling**
 
   When resampling, we use the likelihood, computed in the previous step to assign probabilities to each particle. States that generate sensor readings compatible with the actual measurements will have higher probabilities of being selected during resampling.
 
