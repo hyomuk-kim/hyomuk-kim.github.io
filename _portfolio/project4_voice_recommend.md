@@ -1,6 +1,7 @@
 ---
 title: "Voice Command Recommendation"
-excerpt: " <b>To assist users in learning how to use the AI assistant effectively.</b>"
+sideinfo: "<i>Jan. 2020 ~ Aug. 2020 @ Global AI Center</i>"
+excerpt: "<b>To assist users in learning how to use the AI assistant effectively.</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
