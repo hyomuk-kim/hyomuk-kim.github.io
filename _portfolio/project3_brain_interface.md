@@ -6,12 +6,12 @@ collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
 
-> Info.  
+> **Info.**  
   _Sep. 2020 ~ Apr. 2021 at Global AI Center with 4 members._
 
 ## Goal
 
-The goal of this project was to develop a Brain-Machine Interface prototype for Proof-of-Concept using EEG or EMG to sense, interpret, and recognize specific linguistic imagery or body movements, enabling device control based on neural signals for the exploration and validation of future interfaces.
+The goal of this project was to develop a Brain-Machine Interface prototype for proof-of-concept using EEG or EMG to sense, interpret, and recognize specific linguistic imagery or body movements, enabling device control based on neural signals for the exploration and validation of future interfaces.
 
 ## Need
 
@@ -34,26 +34,26 @@ Through this journey, it became evident that the typical number of sensors used 
 
 We set out with the primary goal of developing a Brain-state Binary classifier through real-time EEG measurements.
 Here are the steps we followed:
-- Set-up with OpenBCI opensource biosensing hardware (ADC board & dry electrodes)
+- Set-up with [OpenBCI](https://openbci.com/) opensource biosensing hardware (ADC board & dry electrodes)
   - We captured raw 8 Channel EEG signals from various brain regions (Fp1, Fp2, F7, F8, T3, T4, T5, T6) according to international 10-20 system with EEG electrodes that are placed on the scalp.
   - We preprocessed the signals with edge sample reduction, z-score normalization and band-pass filtering.
   - We visualized FFT spectrum, band power, head power plotting.
 - Development of data acquisition tool based on a protocol that we defined.
 - Comparison of time-series EEG wavelets of brain states (concentration, chilling-out)
-  - EEG signal indicates that different regions of brain are activated based on frequency bands and spatial power spectrum density (PSD).
+  - EEG signal indicates that different regions of brain are activated based on frequency bands and spatial Power Spectrum Density (PSD).
   - 'Concentration' means thinking a specific word in one's head, while 'chilling-out' means zoning out and not thinking about anything.
-- Feature extraction by training of AutoEncoder to learn efficient data coding in an unsupervised manner
-  - To train network to reduce signal noise caused by artifacts like eye blinking and mascular movement with dimension reduction
-- Training classifier based on K-means clustering, and then verifying the classifier for labeled data
+- Feature extraction by training of _AutoEncoder_ to learn efficient data coding in an unsupervised manner
+  - Training the network to reduce signal noise caused by artifacts like eye blinking and mascular movement with dimension reduction
+- Training classifier based on _K-means clustering_, and then verifying the classifier for labeled data
 - Performance evaluation with validation data collected from in-house testers
 
 ### Insights &mdash; Binary Brain-state Classifier using EEG
 
 As expected from the outset, this project was quite challenging, and it proved to be difficult to achieve meaningful classification performance through evaluations and demonstrations.
 
-* Sensor Issue: In an attempt to overcome the contact noise of dry electrodes, we also tried gel-type electrodes. However, the influence of very weak signals and the significant noise interference turned out to be a challenging problem to overcome, even with the use of autoencoders for latent space representation.
+* **Sensor Issue**: In an attempt to overcome the contact noise of dry electrodes, we also tried gel-type electrodes. However, the influence of very weak signals and the significant noise interference turned out to be a challenging problem to overcome, even with the use of autoencoders for latent space representation.
 
-Calibration Issue: We anticipated that there would be consistent patterns in brainwave activity when individuals made specific visual or linguistic mental efforts, regardless of the user. This is closely related to the sensor issue, but the characteristics of scalp contact varied depending on users' physical differences. Additionally, even though we guided users to minimize physical movements during the experiments, there was still a significant variation in the impact of artifacts. Consequently, calibrating the pure brainwave differences remained a real challenge, and obtaining pure brainwave data for individual users proved to be a formidable task in itself.
+* **Calibration Issue**: We anticipated that there would be consistent patterns in brainwave activity when individuals made specific visual or linguistic mental efforts, regardless of the user. This is closely related to the sensor issue, but the characteristics of scalp contact varied depending on users' physical differences. Additionally, even though we guided users to minimize physical movements during the experiments, there was still a significant variation in the impact of artifacts. Consequently, calibrating the pure brainwave differences remained a real challenge, and obtaining pure brainwave data for individual users proved to be a formidable task in itself.
 
 In conclusion, we came to realize that there are substantial limitations in detecting meaningful differences in signal interpretation under constraints related to sensor types and quantities, targeting a specific device. After multiple validations and demonstrations, we acknowledged the considerable gap between reality and our ideals. Following the advice of our director, Prof. Daniel D. Lee, we decided to pivot our focus towards a more pragmatic direction.
 
@@ -63,6 +63,5 @@ In conclusion, we came to realize that there are substantial limitations in dete
 T.B.A
 
 ***
-</br>
 
 > During my involvement in the research project on EMG signals, I unexpectedly came across a job posting for the Robot Center. Fueled by my passion for robotics research, I decided to seize the opportunity to transfer to the new department, leaving my regrets behind.

@@ -6,17 +6,17 @@ collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
 
-> Info.  
+> **Info.**  
   _Apr. 2018 ~ Jan. 2020 at Language & Voice Team with 10 members_  
   _(4 members in overseas research institute)._
 
-### Goal
+## Goal
 The aim of this project was to develop a commercially viable and efficient deep learning-based speech synthesis model.
 
-### Need
+## Need
 During a period when entertaining demonstrations mimicking celebrities' voices using deep learning-based open-source tools were on the rise, we aimed to replace our already commercialized parametric Text-To-Speech model with a high-quality yet lightweight Neural Speech Synthesis solution. This new solution needed to be capable of serving as an AI voice synthesis engine for Bixby.
 
-### Approach
+## Approach
 Before moving towards a complete end-to-end model, we conducted research by incrementally developing a neural speech synthesis model that combined an **Acoustic Model** based on [_Tacotron_](https://google.github.io/tacotron/)<sup>[1]</sup> or _DC-TTS_<sup>[2]</sup> with a **Vocoder Model** like [_WaveNet_](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)<sup>[3]</sup>, [_Parallel WaveNet_](https://www.deepmind.com/blog/high-fidelity-speech-synthesis-with-wavenet)<sup>[4]</sup>, _WaveRNN_<sup>[5]</sup>, or [_LPCNet_](https://jmvalin.ca/demo/lpcnet/)<sup>[6]</sup>.
 
 The acoustic model takes sequential texts as inputs and produces the inferred mel spectrogram using an attention-based seq2seq model. Subsequently, the vocoder model takes the mel spectrogram and converts it into speech data using a probabilistic generative model.
@@ -51,13 +51,13 @@ In the diagram below, it consists of a _sample rate network_ operating at 16kHz 
 
 Based on this structure, LPCNet demonstrated good performance in subjective quality tests compared to WaveRNN+. It was also able to reduce complexity to a level that could run on a single smartphone core.
 
-### Outcome
+## Outcome
 
 After conducting extensive research and analyzing various models over an extended period, we implemented and optimized our proprietary Neural Vocoder model based on LPCNet at the time. Through this process, <u>we were able to commercialize an on-device AI voice synthesizer targeting mobile devices.</u>
 
 The content introduced above is simply a conceptual explanation aimed at giving a rough overview of what the project entailed. However, <u>going along with the evolution of speech synthesis models and understanding the characteristics of each algorithm was indeed a valuable experience.</u> Additionally, conducting hyperparameter tuning to improve performance, experimenting with various datasets to achieve more generalized models, and making adjustments to local conditioning were some of the methods employed to train deep neural networks in different ways, <u>resulting in gaining many insights into deep learning research.</u>
 
-### Insights
+## Insights
 
 * The central focus of my work was the development of the vocoder model. However, due to our team's limited size, <u>I had the unique opportunity to gain experience in every aspect of deploying deep learning models.</u> This encompassed a wide range of tasks, from data preprocessing to model evaluation through both internal and external online channels, as well as optimization efforts essential for commercialization through collaborative efforts. These tasks included:
   * Dataset creation through automated data refinement and preprocessing procedures.
@@ -86,7 +86,7 @@ The content introduced above is simply a conceptual explanation aimed at giving 
 
   Furthermore, the reason I believe there may be even more potential in this research direction, particularly in robotics, is because the problems are inherently more complex and on a larger scale. Additionally, recent trends in _multimodal learning_ have become increasingly diverse. Whether the data used in target scenarios is language, speech, or visual data, <u>exploring how humans interact using multiple senses and conducting research to enable artificial intelligence to integrate and learn from various data sources is crucial.</u> I find this process extremely fascinating.
 
-### References
+## References
 
 [1] Wang, Yuxuan, et al. "[Tacotron: Towards End-to-End Speech Synthesis.](https://arxiv.org/abs/1703.10135)" Interspeech 2017 (2017).
 

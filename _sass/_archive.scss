@@ -57,21 +57,21 @@
   }
 }
 
-.archive__item-excerpt {
-  margin-top: 0;
+.archive__item-sideinfo {
+  margin-top: -1;
   font-size: $type-size-6;
 
   & + p {
-    text-indent: 0;
+    text-indent: 1;
   }
 }
 
-.archive__item-sideinfo {
-  margin-top: 0;
+.archive__item-excerpt {
+  margin-top: -1;
   font-size: $type-size-6;
 
   & + p {
-    text-indent: 0;
+    text-indent: 1;
   }
 }
 

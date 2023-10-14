@@ -6,7 +6,7 @@ collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
 
-> Info.  
+> **Info.**  
   _Jan. 2020 ~ Aug. 2020 at Global AI Center with 4 members._
 
 ### Enhancing Ambient AI User Experience with Adaptive Interfaces
@@ -46,6 +46,5 @@ Our approach encompasses several key steps:
 This research project introduces a novel approach to ambient AI user interfaces. By leveraging real-time data and adaptive interfaces, we aim to enhance the user experience, allowing users to intuitively interact with AI agents without the need for extensive training or memorization. Our research provides valuable insights into improving the usability of AI-driven devices in ambient environments, ultimately making technology more accessible and user-friendly.
 
 ***
-</br>
 
 > Even though I moved to the AI Center to work on developing a multimodal interaction framework for "robots" and AR/VR, the project was assigned to another overseas research institute, and I had to participate in a different project. (Well, you know, life doesn't always go as planned.) My research direction was then redirected toward next-generation interactions, so while preparing a research proposal for Brain-Machine Interface studies, I also became involved in this voice command proposal project.
