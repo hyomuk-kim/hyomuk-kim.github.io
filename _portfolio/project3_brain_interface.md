@@ -51,16 +51,18 @@ Here are the steps we followed:
 
 As expected from the outset, this project was quite challenging, and it proved to be difficult to achieve meaningful classification performance through evaluations and demonstrations.
 
-* **Sensor Issue**: In an attempt to overcome the contact noise of dry electrodes, we also tried gel-type electrodes. However, the influence of very weak signals and the significant noise interference turned out to be a challenging problem to overcome, even with the use of autoencoders for latent space representation.
+- **Sensor Issue**  
+  In an attempt to overcome the contact noise of dry electrodes, we also tried gel-type electrodes. However, the influence of very weak signals and the significant noise interference turned out to be a challenging problem to overcome, even with the use of autoencoders for latent space representation.
 
-* **Calibration Issue**: We anticipated that there would be consistent patterns in brainwave activity when individuals made specific visual or linguistic mental efforts, regardless of the user. This is closely related to the sensor issue, but the characteristics of scalp contact varied depending on users' physical differences. Additionally, even though we guided users to minimize physical movements during the experiments, there was still a significant variation in the impact of artifacts. Consequently, calibrating the pure brainwave differences remained a real challenge, and obtaining pure brainwave data for individual users proved to be a formidable task in itself.
+- **Calibration Issue**  
+  We anticipated that there would be consistent patterns in brainwave activity when individuals made specific visual or linguistic mental efforts, regardless of the user. This is closely related to the sensor issue, but the characteristics of scalp contact varied depending on users' physical differences. Additionally, even though we guided users to minimize physical movements during the experiments, there was still a significant variation in the impact of artifacts. Consequently, calibrating the pure brainwave differences remained a real challenge, and obtaining pure brainwave data for individual users proved to be a formidable task in itself.
 
 In conclusion, we came to realize that there are substantial limitations in detecting meaningful differences in signal interpretation under constraints related to sensor types and quantities, targeting a specific device. After multiple validations and demonstrations, we acknowledged the considerable gap between reality and our ideals. Following the advice of our director, Prof. Daniel D. Lee, we decided to pivot our focus towards a more pragmatic direction.
 
 
 ### Approach &mdash; Hand Gesture Recognition using EMG
 
-T.B.A
+_To be added._
 
 ***
 

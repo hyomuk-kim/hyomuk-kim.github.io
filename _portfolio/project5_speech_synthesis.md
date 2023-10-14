@@ -59,16 +59,18 @@ The content introduced above is simply a conceptual explanation aimed at giving 
 
 ## Insights
 
-* The central focus of my work was the development of the vocoder model. However, due to our team's limited size, <u>I had the unique opportunity to gain experience in every aspect of deploying deep learning models.</u> This encompassed a wide range of tasks, from data preprocessing to model evaluation through both internal and external online channels, as well as optimization efforts essential for commercialization through collaborative efforts. These tasks included:
-  * Dataset creation through automated data refinement and preprocessing procedures.
-  * Management of databases organized by language, speaker and audio quality.
-  * Development and execution of speaker-specific model training plans to achieve the desired speech synthesis model.
-  * Experimental comparison of model performance based on various parameter combinations.
-  * Evaluation of the Korean model using in-house online assessment tools.
-  * Evaluation of the English model targeting native speakers using AWS.
-  * Porting of Python code to C code and optimization efforts involving application of intrinsics functions.  
+- **From Vocoder Development to Multifaceted Aspects of Deep Learning Model Deployment**  
+  The central focus of my work was the development of the vocoder model. However, due to our team's limited size, <u>I had the unique opportunity to gain experience in every aspect of deploying deep learning models.</u> This encompassed a wide range of tasks, from data preprocessing to model evaluation through both internal and external online channels, as well as optimization efforts essential for commercialization through collaborative efforts. These tasks included:
+  - Dataset creation through automated data refinement and preprocessing procedures.
+  - Management of databases organized by language, speaker and audio quality.
+  - Development and execution of speaker-specific model training plans to achieve the desired speech synthesis model.
+  - Experimental comparison of model performance based on various parameter combinations.
+  - Evaluation of the Korean model using in-house online assessment tools.
+  - Evaluation of the English model targeting native speakers using AWS.
+  - Porting of Python code to C code and optimization efforts involving application of intrinsics functions.  
   
-* When I initially embarked on this project, I was relatively inexperienced in the field of AI, and I wasn't familiar with the implementation of complex deep learning models. My knowledge of speech signal processing was also limited, which hindered my direct contribution to coding. However, through reviewing the code for various components of the model and experimenting by modifying detailed structures and parameters, I gained a substantial understanding of model implementation and development as a whole.
+- **Experiments on Local Conditions in the WaveNet Model & Challenges of Generalizing across Diverse Speakers**  
+  When I initially embarked on this project, I was relatively inexperienced in the field of AI, and I wasn't familiar with the implementation of complex deep learning models. My knowledge of speech signal processing was also limited, which hindered my direct contribution to coding. However, through reviewing the code for various components of the model and experimenting by modifying detailed structures and parameters, I gained a substantial understanding of model implementation and development as a whole.
 
   Throughout extensive discussions with my colleagues, I planned and executed various experiments. <u>One of these experiments aimed to apply local conditions to the WaveNet model using speaker-specific embedding vectors to obtain a universal model.</u> Data from numerous speakers was segmented into groups based on characteristics like gender, language, and audio quality. Subsequently, embedding feature vectors were incorporated as local conditions, and group-specific models were trained. The performance of these models was then compared with that of individual speaker-specific models.
  
@@ -76,8 +78,7 @@ The content introduced above is simply a conceptual explanation aimed at giving 
  
   Due to various ongoing tasks, I couldn't delve deeply into this issue, but I've come to believe that achieving a generalized model for complex inference problems, akin to the recently acclaimed foundation models, likely necessitates a vast amount of high-quality data on the order of billions. Of course, it may not need up to a billion units for speech synthesis problems. Nevertheless, given the opportunity, <u>I would like to explore whether it's possible to obtain such a model for various tasks within the same domain, even though they possess distinct characteristics.</u>
 
-* The synergy between classical domain knowledge and deep learning models:
-
+- **Synergy between Classical Domain Knowledge and Deep Learning Models**  
   While developing deep learning models, one thing we discussed a lot with our team members was that _"ultimately, knowledge of the domain you want to apply AI technology to is key."_
 
   LPCNet, as described above, demonstrates <u>how it efficiently incorporates Linear Prediction Coding (LPC)</u>, a technique traditionally used in speech processing to model the frequency characteristics of speech signals, <u>into a deep learning model.</u> Because it offers a good balance between quality and efficiency, making it more suitable for real-time scenarios where low latency is crucial.

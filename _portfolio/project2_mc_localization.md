@@ -54,7 +54,7 @@ For each particle's pose, the expected sensor readings are calculated to determi
   
 
 - **Likelihood Field Enhancement**  
-  T.B.A
+  _To be added._
 
 
 **Resampling**
