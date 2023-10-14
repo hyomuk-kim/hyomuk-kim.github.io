@@ -44,6 +44,12 @@
       <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% endif %}
 
+    {% if post.sideinfo %}
+    <span style="color:gray">
+      <p class="archive__item-sideinfo" itemprop="description">{{ post.sideinfo | markdownify }}</p>
+    </span>
+    {% endif %}
+
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}

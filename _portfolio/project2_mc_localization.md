@@ -1,6 +1,7 @@
 ---
 title: "Monte Carlo Localization"
-excerpt: "<span style="color:gray"><i>Apr. 2021 ~ Dec. 2021 @ Robot Intelligence Team</i></span>  <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b>"
+sideinfo: " <i>Apr. 2021 ~ Dec. 2021 @ Robot Intelligence Team</i>"
+excerpt: " <b>For refactoring and enhancing the performance of the 2D LiDAR-based localizer.</b>"
 collection: portfolio
 ---
 <!-- <br/><img src='/images/500x300.png'> -->
