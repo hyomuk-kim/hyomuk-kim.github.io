@@ -13,11 +13,11 @@ collection: portfolio
 
 ## Goal
 
-The objective of this research project is to enhance the usability of devices within an ambient AI environment. The challenge we seek to address is the difficulty users encounter when attempting to seamlessly adapt to multiple AI interfaces in these environments. Rather than mandating that users learn each AI interface independently, our goal is to develop adaptive interfaces that enable users to naturally assimilate interface interactions while using the device. We plan to achieve this by interpreting user intentions within the context of interactions and providing relevant voice command recommendations. Our aim is to promote the proactive use of AI agents when engaging with specific functions or applications.
+The objective of this research project was to enhance the usability of devices within an ambient AI environment. The challenge we sought to address was the difficulty users encounter when attempting to seamlessly adapt to multiple AI interfaces in these environments. Rather than mandating that users learn each AI interface independently, our goal was to develop adaptive interfaces that enable users to naturally assimilate interface interactions while using the device. We planed to achieve this by interpreting user intentions within the context of interactions and providing relevant voice command recommendations. Our aim was to promote the proactive use of AI agents when engaging with specific functions or applications.
 
 ## Need
 
-As ambient AI becomes increasingly integrated into our daily lives through smart devices, creating user-friendly and adaptable interfaces is crucial. Existing AI interfaces often require users to learn complex voice commands or memorize specific interactions. This hampers user engagement and can lead to frustration. To make ambient AI more accessible and intuitive, we need to develop interfaces that adapt to users' needs without the requirement for extensive learning or memorization.
+As ambient AI becomes increasingly integrated into our daily lives through smart devices, creating user-friendly and adaptable interfaces is crucial. Existing AI interfaces often require users to learn complex voice commands or memorize specific interactions. This hampers user engagement and can lead to frustration. To make ambient AI more accessible and intuitive, we needed to develop interfaces that adapt to users' needs without the requirement for extensive learning or memorization.
 
 ## Approach
 
@@ -43,7 +43,7 @@ Our approach encompasses several key steps:
 
 ## Insights
 
-This research project introduces a novel approach to ambient AI user interfaces. By leveraging real-time data and adaptive interfaces, we aim to enhance the user experience, allowing users to intuitively interact with AI agents without the need for extensive training or memorization. Our research provides valuable insights into improving the usability of AI-driven devices in ambient environments, ultimately making technology more accessible and user-friendly.
+This research project introduced a novel approach to ambient AI user interfaces. By leveraging real-time data and adaptive interfaces, we aimed to enhance the user experience, allowing users to intuitively interact with AI agents without the need for extensive training or memorization. Our research provided valuable insights into improving the usability of AI-driven devices in ambient environments, ultimately making technology more accessible and user-friendly.
 
 ***
 
