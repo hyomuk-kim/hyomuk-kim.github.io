@@ -50,8 +50,8 @@ Here are the steps we followed:
 <div style="text-align:center"><img src="/images/set-up_with_openbci.jpg" /></div>
 <p style="text-align: center;"><span style="color:gray">Set-up with OpenBCI</span></p>
 
-<div style="text-align:center"><img src="/images/spatiotemporal_analysis_for_wavelets.jpg" /></div>
-<p style="text-align: center;"><span style="color:gray">Spatiotemporal Analysis for EEG Wavelets</span></p>
+<!-- <div style="text-align:center"><img src="/images/spatiotemporal_analysis_for_wavelets.jpg" /></div> -->
+<!-- <p style="text-align: center;"><span style="color:gray">Spatiotemporal Analysis for EEG Wavelets</span></p> -->
 
 ### Insights &mdash; Binary Brain-state Classifier using EEG
 
