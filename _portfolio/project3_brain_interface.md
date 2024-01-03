@@ -23,7 +23,7 @@ In connection with this, as I investigated relevant trends, I found that some ma
 
 ### Approach &mdash; Binary Brain-state Classifier using EEG
 
-Leveraging our team's expertise and experience in developing voice-based interfaces such as speech recognition and synthesis, we embarked on the project known as the _'Mind Reading User Interface'._ In this project, we aimed to achieve the ideal target of implementing mind-based wake-up functionality for AI agents, which could be realized with _Speech Imagery_. Considering the typical design of AR glasses and VR headsets, which typically encompass the front and sides of the head with a band, we envisioned that these future products would provide ample space for attaching sensors. While, at the time, companies like Neuralink were actively developing invasive BCIs, we aimed for a more accessible, non-invasive solution.
+Leveraging our team's expertise and experience in developing voice-based interfaces such as speech recognition and synthesis, we embarked on the project known as the _'Mind Reading User Interface'._ In this project, we aimed to achieve the ideal target of implementing mind-based wake-up functionality for AI agents, which could be realized with _Speech Imagery_. Considering the typical design of AR glasses and VR headsets, which encompass the front and sides of the head with a band, we envisioned that future products of these types would provide ample space for attaching sensors. While, at the time, companies like Neuralink were actively developing invasive BCIs, we aimed for a more accessible, non-invasive solution.
 
 I was responsible for researching the project's relevant trends and implementing the prototype using an open-source platform. This led me to explore topics such as Brain-Machine Interfaces and detailed research methodologies. As I delved into the literature, including various papers and survey articles, I gained a comprehensive understanding of EEG signal characteristics, measurement protocols, preprocessing techniques, and analytical methodologies. Sharing and discussing these insights during seminars played a crucial role in shaping our focused research direction.
 
@@ -32,7 +32,7 @@ Through this journey, it became evident that the typical number of sensors used 
 <div style="text-align:center"><img src="/images/10-20_system_for_EEG.png" /></div>
 <p style="text-align: center;"><span style="color:gray">International 10-20 system for EEG signal</span></p>
 
-We set out with the primary goal of developing a Brain-state Binary classifier through real-time EEG measurements.
+We set out with the primary goal of developing a binary brain-state classifier through real-time EEG measurements.
 Here are the steps we followed:
 - Set-up with [OpenBCI](https://openbci.com/) opensource biosensing hardware (ADC board & dry electrodes)
   - We captured raw 8 Channel EEG signals from various brain regions (Fp1, Fp2, F7, F8, T3, T4, T5, T6) according to international 10-20 system with EEG electrodes that are placed on the scalp.
@@ -46,6 +46,12 @@ Here are the steps we followed:
   - Training the network to reduce signal noise caused by artifacts like eye blinking and mascular movement with dimension reduction
 - Training classifier based on _K-means clustering_, and then verifying the classifier for labeled data
 - Performance evaluation with validation data collected from in-house testers
+
+<div style="text-align:center"><img src="/images/set-up_with_openbci.jpg" /></div>
+<p style="text-align: center;"><span style="color:gray">Set-up with OpenBCI</span></p>
+
+<div style="text-align:center"><img src="/images/spatiotemporal_analysis_for_wavelets.jpg" /></div>
+<p style="text-align: center;"><span style="color:gray">Spatiotemporal Analysis for EEG Wavelets</span></p>
 
 ### Insights &mdash; Binary Brain-state Classifier using EEG
 
@@ -62,7 +68,7 @@ In conclusion, we came to realize that there are substantial limitations in dete
 
 ### Approach &mdash; Hand Gesture Recognition using EMG
 
-_To be added._
+Following the process outlined earlier, we revised our objective to develop a wristband-shaped prototype capable of recognizing hand gestures through EMG signals. Drawing inspiration from CTRL-Labs, a neural interface startup, and their Ctrl-kit, our goal was to assess the feasibility of a solution that could be integrated into the band of wearable devices such as the Galaxy Watch. Despite not achieving an integrated design with on-chip sensors similar to the wristband introduced by Reality Labs after Meta acquired Ctrl-labs, we developed a wristband prototype outfitted with metallic electrode sensors. This prototype, using Bitalino—an open-source biosignals platform—was engineered to classify and recognize fundamental hand gestures such as Rock, Paper, Scissors.
 
 ***
 

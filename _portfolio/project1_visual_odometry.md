@@ -10,7 +10,7 @@ collection: portfolio
   _Jan. 2022 ~ Present at Robot Intelligence Team with 3 members._
 
 > **Note**  
-  _Since this is an ongoing project, please excuse me for providing a somewhat abstract description and not being able to go into detailed explanations here._
+  _Since this is an ongoing project, please excuse me for just providing a somewhat abstract description and not being able to go into detailed explanations here._
 
 ## Goal
 
@@ -29,6 +29,9 @@ To meet these requirements, we designed the generalized and lightweight Visual S
 This module processes image data from cameras through a ROS2 node, extracts features from an image pyramid, matches them for tracking based on descriptors, and optimizes the pose using a cost function for reprojection errors with the automatic differentiation of Ceres or analytical derivatives. In cases where the number of feature points is too low or optimization fails, the estimated pose from wheel odometry can optionally be used based on a certain weight. This process results in the creation of a sparse point clouds map (not being used for planning as of now) and provides an estimate of the robot's pose in 6 degrees of freedom.
 
 To evaluate the module, we collected rosbag data recorded by our robot, simulating a variety of situations occurring in indoor environments. We measured the root mean square error (RMSE) for the robot's trajectory and compared it with the ground truth.
+
+<div style="text-align:center"><img src="/images/viz_of_visual_slam_in_rviz.jpg" /></div>
+<p style="text-align: center;"><span style="color:gray">Visualization of Visual SLAM in Rviz</span></p>
 
 ## Insights & Further Considerations
 
