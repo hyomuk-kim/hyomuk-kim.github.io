@@ -9,11 +9,11 @@ collection: portfolio
 > **Info.**  
   _Apr. 2021 ~ Dec. 2021 at Robot Intelligence Team with 3 members._
 
-## Goal & Need
+## Need & Goal
 
 The objective of this project was to perform a comprehensive and in-depth refactoring of the existing Monte Carlo Localizer module. This was done by adhering to fundamental theory, focusing on verifying the basics, and further incorporating advancements in related algorithms, all while minimizing impromptu heuristics that had not been looked into deeply through demonstrations.
 
-## Approaches & Insights
+## Approach & Insights
 
 **Monte Carlo Localization Fundamentals**
 
@@ -26,9 +26,9 @@ Monte Carlo Localization (MCL) is an advanced algorithm based on the Bayesian fi
 **Motion Model**
 
 This model with regards to robot's kinematics serves as state transition model, represented as the posterior $p(x_t | u_t, x_{t-1})$ according to motion control $u_t$.
-The state variable $x$ represents the robot's pose, defined as {x, y, theta}, which includes position and orientation based on the kinematics of a 2D mobile robot. The wheel odometry model predicts how the pose changes ($\Delta x, \Delta y, \Delta \theta$) in response to wheel movements.  
+The state variable $x$ represents the robot's pose, defined as $\{x, y, \theta\}$, which includes position and orientation based on the kinematics of a 2D mobile robot. The wheel odometry model predicts how the pose changes ($\Delta x, \Delta y, \Delta \theta$) in response to wheel movements.  
 
-- **Defense against the irregularities**  
+- **Defence against the irregularities**  
   We utilized translation data from the odometer driver and orientation information from the IMU driver. Although the information is received periodically through a ROS2 node, there are occasional irregularities in the time interval. Applying defensive code for this when calculating the relative pose is a critical concern for several modules.  
 
 When representing the relative pose due to motion, as explained in _Probabilistic Robotics_<sup>[1]</sup>, we decomposed $u_t$ into three motion parameters and applied noise to each of these parameters. 4 noise parameters related to translation and rotation are used to determine the variance of the error distribution.  
@@ -54,8 +54,10 @@ For each particle's pose, the expected sensor readings are calculated to determi
   
 
 - **Likelihood Field Enhancement**  
+  <!-- COM 관련 내용 -->
   _To be added._
 
+<!-- Comparison with Beam Model -->
 
 **Resampling**
 
