@@ -7,21 +7,49 @@ redirect_from:
   - /about.html
 ---
 
-I am a staff engineer and roboticist at Robot Center, [Samsung Research](https://research.samsung.com) working on mobile robot navigation with [Mid-Eum Choi](https://linkedin.com/in/mid-eum-choi-ba106017a) and [Junghyun Kwon](https://linkedin.com/in/junghyun-kwon).
+I am currently a graduate student pursuing an M.S. in Electrical and Computer Engineering at the University of California, San Diego (UCSD), specializing in [Intelligent Systems, Robotics, and Control (EC80)](https://ece.ucsd.edu/faculty-research/ece-research-areas/intelligent-systems-robotics-control-impacted).
 
-Recently I have been diving deep into **Visual Navigation** for 3D localization, mapping, and robust navigation.
-I also endeavored to perform research projects on neural networks for Brain-Machine Interface advised by [Inchul Hwang](https://linkedin.com/in/inchul-hwang-76463831) and [Daniel D. Lee](https://www.ece.cornell.edu/faculty-directory/daniel-dongyuel-lee), and Neural Speech Synthesis engine advised by [Chanwoo Kim](https://linkedin.com/in/chanwoo-kim-2628a622) at Global AI Center.
+Prior to joining UCSD, I was a Staff Engineer and Roboticist at the Robot Center, [Samsung Research](https://research.samsung.com). During my tenure there, I worked on mobile robot navigation in collaboration with [Mid-Eum Choi](https://linkedin.com/in/mid-eum-choi-ba106017a) and [Junghyun Kwon](https://linkedin.com/in/junghyun-kwon), diving deep into Visual SLAM and Navigation systems, specifically focusing on 3D localization, mapping, and robust path planning.
 
-Previously, I worked as a hardware engineer for 5 years, developing circuit systems for various TV models at the Visual Display Division of [Samsung Electronics](https://www.samsung.com). Additionally, I served as a planner and manager for a year, leading a 6-member team in a project focused on a user content archive platform utilizing multi-device interfaces at [C-Lab](https://samsungclab.com/).
+My research experience at Samsung also extends to AI applications; I conducted projects on neural networks for Brain-Machine Interfaces advised by [Inchul Hwang](https://linkedin.com/in/inchul-hwang-76463831) and [Daniel D. Lee](https://www.ece.cornell.edu/faculty-directory/daniel-dongyuel-lee), and developed a Neural Speech Synthesis engine advised by [Chanwoo Kim](https://linkedin.com/in/chanwoo-kim-2628a622) at the Global AI Center.
 
-This website is dedicated to helping you gain a better understanding of my research journey.
+Earlier in my career, I served as a hardware engineer for 5 years at the Visual Display Division of Samsung Electronics, developing circuit systems for various TV models. Additionally, I served as a planner and manager for a year at [C-Lab](https://samsungclab.com/), leading a 6-member team in developing a user content archive platform utilizing multi-device interfaces.
 
-Please refer to my [Curriculum Vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf).
+This website is dedicated to sharing my research journey. Please refer to my [Curriculum Vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf) for more details.
 
 ***
 
+## Education
+* **Master of Science** in Electrical and Computer Engineering (Intelligent Systems, Robotics, and Control), _University of California, San Diego (UCSD)_
+  -- Sep 2025 – Present
+  * Relevant Coursework: Statistical Learning, Random Processes, Linear Algebra and application, Linear Systems Theory, Sensing & Estimation in Robotics
+
+* **Bachelor of Science** in Electrical & Electronics Engineering, _Chung-Ang University_  
+  -- _Mar. 2007 - Feb. 2011_
+  * Cadet, _[ROTC](https://www.armyofficer.mil.kr:460/) (Reserved Officer Training Corps) program 49<sup>th</sup>, Republic of Korea Army_  
+  -- _Mar. 2009 - Feb. 2011_
+
+
+## Professional Experiences
+* **Staff Engineer (Robotics)**, _Robot Intelligence Team, Robot Center, [Samsung Research](https://research.samsung.com)_  
+  -- _Apr. 2021 - Aug. 2024_
+* **Engineer (Deep Learning)**, _Global AI Center, Samsung Research_  
+  -- _Jan. 2020 – Apr. 2021_
+* **Engineer (Deep Learning)**, _Language & Voice Team, Global AI Center, Samsung Research_  
+  -- _Apr. 2018 – Jan. 2020_
+* **Project Leader**, _[C-Lab](https://samsungclab.com/)., Visual Display Div., Samsung Electronics_  
+  -- _Jun. 2014 – Jun. 2015_
+* **Engineer (Circuitry)**, _TV R&D Lab., Visual Display Div., [Samsung Electronics](https://www.samsung.com)_  
+  -- _Apr. 2013 – Apr. 2018_
+
+
+## Military Service
+* **First Lieutenant**, _Reconnaissance Battalion, 60th Div., [Republic of Korea Army](https://www.army.mil.kr/english/index..do)_  
+  -- _Mar. 2011 – Jun. 2013_
+
+
 ## Research Interests
-Robotics, Autonomous Navigation, Computer Vision, Machine Learning
+Robotics, AI/ML, Robot Learning, Computer Vision, Autonomous Driving / Navigation
 
 ## Research Objectives
 ### General Objectives
@@ -35,25 +63,3 @@ Explore <u>robots' ability to understand and navigate diverse environments safel
 * Discuss <u>how robots enhance navigation through diverse learning approaches</u> (such as deep reinforcement learning, imitation learning, neural SLAM, and even meta-learning), and describe their incremental expansion of semantic perception and mapping, through which emphasize <u>the importance of evolving robot navigation through continuous learning.</u>
 
 * Evaluate <u>robots' adaptability in unique environments</u> like underwater, forests, and outer space, assessing their seamless navigation capabilities across these environments <u>to achieve long-lasting navigation for versatile robots.</u>
-
-## Professional Experiences
-* **Staff Engineer (Robotics)**, _Robot Intelligence Team, Robot Center, [Samsung Research](https://research.samsung.com)_  
-  -- _Apr. 2021 ~ Present_
-* **Engineer (Deep Learning)**, _Global AI Center, Samsung Research_  
-  -- _Jan. 2020 – Apr. 2021_
-* **Engineer (Deep Learning)**, _Language & Voice Team, Global AI Center, Samsung Research_  
-  -- _Apr. 2018 – Jan. 2020_
-* **Project Leader**, _[C-Lab](https://samsungclab.com/)., Visual Display Div., Samsung Electronics_  
-  -- _Jun. 2014 – Jun. 2015_
-* **Engineer (Circuitry)**, _TV R&D Lab., Visual Display Div., [Samsung Electronics](https://www.samsung.com)_  
-  -- _Apr. 2013 – Apr. 2018_
-
-## Military Service
-* **First Lieutenant**, _Reconnaissance Battalion, 60th Div., [Republic of Korea Army](https://www.army.mil.kr/english/index..do)_  
-  -- _Mar. 2011 – Jun. 2013_
-
-## Education
-* **Bachelor of Science** in Electrical & Electronics Engineering, _[Chung-Ang University](https://neweng.cau.ac.kr/index.do)_  
-  -- _Feb. 2011_
-* **Cadet**, _[ROTC](https://www.armyofficer.mil.kr:460/) (Reserved Officer Training Corps) program 49<sup>th</sup>, Republic of Korea Army_  
-  -- _Mar. 2009 ~ Feb. 2011_
