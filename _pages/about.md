@@ -20,31 +20,31 @@ This website is dedicated to sharing my research journey. Please refer to my [Cu
 ***
 
 ## Education
-* **Master of Science** in Electrical and Computer Engineering (Intelligent Systems, Robotics, and Control), _University of California, San Diego (UCSD)_
+* **Master of Science** in Electrical and Computer Engineering (Intelligent Systems, Robotics, and Control), _University of California, San Diego (UCSD)_<br>
   -- Sep 2025 – Present
   * Relevant Coursework: Statistical Learning, Random Processes, Linear Algebra and application, Linear Systems Theory, Sensing & Estimation in Robotics
 
-* **Bachelor of Science** in Electrical & Electronics Engineering, _Chung-Ang University_  
+* **Bachelor of Science** in Electrical & Electronics Engineering, _Chung-Ang University_<br>
   -- _Mar. 2007 - Feb. 2011_
   * Cadet, _[ROTC](https://www.armyofficer.mil.kr:460/) (Reserved Officer Training Corps) program 49<sup>th</sup>, Republic of Korea Army_  
   -- _Mar. 2009 - Feb. 2011_
 
 
 ## Professional Experiences
-* **Staff Engineer (Robotics)**, _Robot Intelligence Team, Robot Center, [Samsung Research](https://research.samsung.com)_  
+* **Staff Engineer (Robotics)**, _Robot Intelligence Team, Robot Center, [Samsung Research](https://research.samsung.com)_<br>
   -- _Apr. 2021 - Aug. 2024_
-* **Engineer (Deep Learning)**, _Global AI Center, Samsung Research_  
+* **Engineer (Deep Learning)**, _Global AI Center, Samsung Research_<br>
   -- _Jan. 2020 – Apr. 2021_
-* **Engineer (Deep Learning)**, _Language & Voice Team, Global AI Center, Samsung Research_  
+* **Engineer (Deep Learning)**, _Language & Voice Team, Global AI Center, Samsung Research_<br>
   -- _Apr. 2018 – Jan. 2020_
-* **Project Leader**, _[C-Lab](https://samsungclab.com/)., Visual Display Div., Samsung Electronics_  
+* **Project Leader**, _[C-Lab](https://samsungclab.com/)., Visual Display Div., Samsung Electronics_<br>
   -- _Jun. 2014 – Jun. 2015_
-* **Engineer (Circuitry)**, _TV R&D Lab., Visual Display Div., [Samsung Electronics](https://www.samsung.com)_  
+* **Engineer (Circuitry)**, _TV R&D Lab., Visual Display Div., [Samsung Electronics](https://www.samsung.com)_<br>
   -- _Apr. 2013 – Apr. 2018_
 
 
 ## Military Service
-* **First Lieutenant**, _Reconnaissance Battalion, 60th Div., [Republic of Korea Army](https://www.army.mil.kr/english/index..do)_  
+* **First Lieutenant**, _Reconnaissance Battalion, 60th Div., [Republic of Korea Army](https://www.army.mil.kr/english/index..do)_<br>
   -- _Mar. 2011 – Jun. 2013_
 
 
