@@ -7,56 +7,120 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a graduate student pursuing an M.S. in Electrical and Computer Engineering at the University of California, San Diego (UCSD), specializing in Intelligent Systems, Robotics, and Control ([EC80](https://ece.ucsd.edu/faculty-research/ece-research-areas/intelligent-systems-robotics-control-impacted)).
+I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: #ffe652; font-weight: bold; text-decoration: none;">Existential Robotics Laboratory</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: #ffe652; font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
 
-Prior to joining UCSD, I was a Staff Engineer and Roboticist at the Robot Center, [Samsung Research](https://research.samsung.com). During my tenure there, I worked on mobile robot navigation in collaboration with [Mid-Eum Choi](https://linkedin.com/in/mid-eum-choi-ba106017a) and [Junghyun Kwon](https://linkedin.com/in/junghyun-kwon), diving deep into Visual SLAM and Navigation systems, specifically focusing on 3D localization, mapping, and robust path planning.
+<details>
+  <summary><b>Click to expand my past journey</b></summary>
+  <br>
+  Prior to joining UC San Diego, I was a Staff Engineer at the Robot Center of <a href="https://research.samsung.com"  style="color: #ffe652; font-weight: bold; text-decoration: none;">Samsung Research</a>, where I focused on mobile robotic navigation. Working under the guidance of <a href="https://linkedin.com/in/junghyun-kwon"  style="color: #ffe652; font-weight: bold; text-decoration: none;">Junghyun Kwon</a>, I specialized in visual SLAM, 3D localization, mapping, and robust motion planning. <br><br>
+  My research extends beyond robotics into applied AI. At Samsung's Global AI Center, advised by <a href="https://linkedin.com/in/chanwoo-kim-2628a622" style="color: #ffe652; font-weight: bold; text-decoration: none;">Chanwoo Kim</a>, I engineered a Neural Text-To-Speech (TTS) engine—executing the entire pipeline from data collection and model training to C++ deployment. I also contributed to projects involving neural networks for Brain-Machine Interfaces (BMI) and command recommendation engines for AI agents. <br><br>
+  Earlier in my career, I built a strong foundation in hardware and product development. I spent 5 years at Samsung's Visual Display Division, validating circuit systems for flagship TVs. Additionally, I led a 6-member team at C-Lab as a Project Manager, spearheading the development of a cross-device content archive platform.
+</details>
 
-My research experience at Samsung also extends to AI applications; I conducted projects on neural networks for Brain-Machine Interfaces advised by [Inchul Hwang](https://linkedin.com/in/inchul-hwang-76463831), and developed a Neural Speech Synthesis engine advised by [Chanwoo Kim](https://linkedin.com/in/chanwoo-kim-2628a622) at the Global AI Center.
+<br>
 
-Earlier in my career, I served as a hardware engineer for 5 years at the Visual Display Division of Samsung Electronics, developing circuit systems for various TV models. Additionally, I served as a planner and manager for a year at [C-Lab](https://samsungclab.com/), leading a 6-member team in developing a user content archive platform utilizing multi-device interfaces.
-
-This website is dedicated to sharing my research journey. Please refer to my [Curriculum Vitae](https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf) for more details.
-
-***
-
-
-## Education
-* **University of California, San Diego (UCSD)**, La Jolla, CA
-  * Master of Science in Electrical and Computer Engineering (Intelligent Systems, Robotics, and Control)<br>_Sep 2025 – Present_
-  * Relevant Coursework: Statistical Learning, Random Processes, Linear Algebra and application, Linear Systems Theory, Sensing & Estimation in Robotics
-
-* **Chung-Ang University**, Seoul, Korea
-  * Bachelor of Science in Electrical & Electronics Engineering<br>_Mar 2007 – Feb 2011_
-  * **ROTC** (Reserve Officers' Training Corps) Cadet, 49th, Republic of Korea Army<br>_Mar 2009 – Feb 2011_
+> For a comprehensive overview of my experience, please refer to my <a href="https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf" style="color: #ffe652; font-weight: bold; text-decoration: none;">Curriculum Vitae</a>.
 
 
-## Professional Experiences
-* **[Samsung Research](https://research.samsung.com)**, Seoul, Korea
-  * Staff Engineer (Robotics), Robot Intelligence Team<br>_Apr. 2021 – Aug. 2024_
-  * Engineer (Deep Learning), Global AI Center<br>_Jan. 2020 – Apr. 2021_
-  * Engineer (Deep Learning), Language & Voice Team<br>_Apr. 2018 – Jan. 2020_
+<h2 style="color: #0F4C81; margin-bottom: 10px;">News</h2>
 
-* **[Samsung Electronics](https://www.samsung.com)**, Suwon, Korea
-  * Project Leader, _[C-Lab](https://samsungclab.com/)_ (Visual Display Div.)<br>_Jun. 2014 – Jun. 2015_
-  * Engineer (Circuitry), TV R&D Lab (Visual Display Div.)<br>_Apr. 2013 – Apr. 2018_
+* **[Apr. 2026]** I have joined the Existential Robotics Laboratory (ERL) for research projects!
+* **[Sep. 2025]** I have started my Master’s degree in ECE at UC San Diego!
 
-## Military Service
-* **[Republic of Korea Army](https://www.army.mil.kr/english/index..do)**, Korea
-  * First Lieutenant, Reconnaissance Battalion (60th Div.)<br>_Mar. 2011 – Jun. 2013_
+<h2 style="color: #0F4C81; margin-bottom: 10px;">Research Interests</h2>
+
+My long-term research goal is to build safe, reliable, and highly adaptable autonomous systems. Specifically, I am interested in blending classic trajectory optimization and visual SLAM with modern robot learning techniques to enable continuous intelligence improvement in complex, unstructured environments.
+
+* **Robot Perception:** Visual SLAM, Sensor Fusion, Semantic Mapping
+* **Motion Planning:** Trajectory Optimization (MPPI, MPC), Safe Navigation
+* **Robot Learning:** Deep Reinforcement Learning, Generative Models, Embodied AI
+
+<h2 style="color: #0F4C81; margin-bottom: 10px;">Selected Patents</h2>
+Throughout my career as a robotics and hardware engineer at Samsung, I have authored and contributed to multiple patents. Below are a few selected works: <br><br>
+
+* **Robot System as a Mothership and Controller of Microbots.**
+  **Hyomuk Kim**, Aron Baik.
+  <a href="https://patents.google.com/patent/US20240148213A1/en?oq=WO2023063565A1" style="color: #ffe652; font-weight: bold; text-decoration: none;">US20240148213A1</a>, May 2024.
+* **Robot Device Operating In Mode Corresponding To Position Of Robot Device And Control Method Thereof.**
+  **Hyomuk Kim**, Woojeong Kim, Jewoong Ryu, Mideum Choi, Aron Baik.
+  <a href="https://patents.google.com/patent/US20240036585A1/en" style="color: #ffe652; font-weight: bold; text-decoration: none;">US20240036585A1</a>, Feb 2024.
+* **Movable Robot And Controlling Method Thereof.**
+  Eunsoll Chang, Youngil Koh, **Hyomuk Kim**, Mideum Choi.
+  <a href="https://patents.google.com/patent/US20230356391A1/en?oq=US20230356391A1" style="color: #ffe652; font-weight: bold; text-decoration: none;">US20230356391A1</a>, Nov 2023.
+* **Method of Yield Planning for Mobile Robots.**
+  Mideum Choi, **Hyomuk Kim**, Jewoong Ryu, Aron Baik.
+  <a href="https://patents.google.com/patent/US20230333567A1/en?oq=US20230333567A1" style="color: #ffe652; font-weight: bold; text-decoration: none;">US20230333567A1</a>, Oct 2023.
+
+<h2 style="color: #0F4C81; margin-bottom: 10px;">Projects</h2>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 0 0 150px; margin-right: 20px;">
+    <video src="/videos/diffusion_policy.mp4" autoplay loop muted playsinline style="width: 150px; height: 100px; object-fit: cover; border-radius: 8px;"></video>
+  </div>
+  <div>
+    <h4><strong>Action Diffusion Policy: Generative Imitation Learning for Manipulation</strong></h4>
+    <p><em>UC San Diego (Jan 2026 – Mar 2026)</em></p>
+    <p>Implemented a Conditional Denoising Diffusion Policy using a 1D Temporal U-Net to solve mode-averaging in explicit Behavior Cloning. Achieved an 81.33% success rate on contact-rich manipulation tasks in the Push-T environment by integrating EMA weight smoothing and Action Chunking.</p>
+    <p><small><strong>Tech:</strong> PyTorch, Diffusers, Gymnasium, LeRobot</small></p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 0 0 150px; margin-right: 20px;">
+    <img src="/images/vi_slam.png" alt="VI SLAM" style="width: 150px; height: 100px; object-fit: contain; border-radius: 8px;">
+  </div>
+  <div>
+    <h4><strong>6-DOF Visual-Inertial SLAM Using Extended Kalman Filter</strong></h4>
+    <p><em>UC San Diego (Feb 2026 – Mar 2026)</em></p>
+    <p>Built a VI-SLAM system fusing high-rate IMU SE(3) kinematics with stereo vision using a Full EKF. Optimized the bottleneck via sparse batch updates and analyzed filter limitations against dynamic outliers (e.g., deceptive static objects) in complex datasets.</p>
+    <p><small><strong>Tech:</strong> Python, Lie Algebra, Stereo Vision</small></p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 0 0 150px; margin-right: 20px;">
+    <img src="/images/ekf_slam.png" alt="EKF SLAM" style="width: 150px; height: 100px; object-fit: contain; border-radius: 8px;">
+  </div>
+  <div>
+    <h4><strong>2D LiDAR SLAM & Pose Graph Optimization (PGO)</strong></h4>
+    <p><em>UC San Diego (Feb 2026)</em></p>
+    <p>Developed a SLAM pipeline for a PR2 robot fusing wheel encoders, IMU, and LiDAR. Implemented 2D ICP for scan-matching and robust PGO using GTSAM with Huber M-estimators to successfully reject false loop closures caused by the aperture problem.</p>
+    <p><small><strong>Tech:</strong> GTSAM, Python, Sensor Fusion</small></p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 0 0 150px; margin-right: 20px;">
+    <video src="/videos/youbot.mp4" autoplay loop muted playsinline style="width: 150px; height: 100px; object-fit: cover; border-radius: 8px;"></video>
+  </div>
+  <div>
+    <h4><strong>Mobile Manipulation Control Pipeline for KUKA youBot</strong></h4>
+    <p><em>UC San Diego (Feb 2026 – Mar 2026)</em></p>
+    <p>Designed a kinematic software pipeline featuring a task-space feedback controller and an 8-segment trajectory generator for complex pick-and-place tasks. Addressed singularity avoidance, integral windup, and joint velocity saturation.</p>
+    <p><small><strong>Tech:</strong> Python, CoppeliaSim, Kinematics</small></p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex: 0 0 150px; margin-right: 20px;">
+    <img src="/images/panorama.png" alt="Panorama" style="width: 150px; height: 100px; object-fit: contain; border-radius: 8px;">
+  </div>
+  <div>
+    <h4><strong>3D Orientation Tracking & Panorama Reconstruction</strong></h4>
+    <p><em>UC San Diego (Jan 2026)</em></p>
+    <p>Formulated an optimization-based state estimator on the unit quaternion manifold using Projected Gradient Descent (PyTorch) to fuse IMU kinematics. Reconstructed panoramic images by mapping pixel coordinates to spherical coordinates using estimated camera poses.</p>
+    <p><small><strong>Tech:</strong> PyTorch, Optimization, Computer Vision</small></p>
+  </div>
+</div>
 
 
-## Research Interests
-Robotics, AI / ML, Robot Learning, Computer Vision, Autonomous Driving / Navigation
+<h2 style="color: #0F4C81; margin-bottom: 10px;">Professional Experiences</h2>
 
-## Research Objectives
-### General Objectives
-Explore <u>robots' ability to understand and navigate diverse environments safely</u> both indoors and outdoors when performing a variety of tasks, also considering <u>learning-based methodologies for continuous intelligence improvement</u>.
+**Samsung Research**, Seoul, Korea
+* **Staff Engineer (Robotics)**, Robot Intelligence Team (Apr. 2021 – Aug. 2024)
+* **Engineer (Deep Learning)**, Global AI Center (Jan. 2020 – Apr. 2021)
+* **Engineer (Deep Learning)**, Language & Voice Team (Apr. 2018 – Jan. 2020)
 
-### Specific Objectives
-* Assess <u>autonomous robots and vehicles' ability to navigate complex 3D environments</u> with various static and dynamic obstacles using limited sensor data like images or scans, <u>while considering practical constraints</u>.
-
-* Develop <u>techniques to factorize scene elements from visual sensors</u>, incorporating semantic objects and diverse features, utilizing both novel neural networks and classical tracking methods. Investigate geometric parameterization for detailed 3D space representation for future planning. Explore <u>methods for integrating multiple visual and sensory inputs dynamically for adaptability</u> across varied sensor configurations to minimize geometric ambiguity.
-
-* Discuss <u>how robots enhance navigation through diverse learning approaches</u> (such as deep reinforcement learning, imitation learning, neural SLAM, and even meta-learning), and describe their incremental expansion of semantic perception and mapping, through which emphasize <u>the importance of evolving robot navigation through continuous learning.</u>
-
-* Evaluate <u>robots' adaptability in unique environments</u> like underwater, forests, and outer space, assessing their seamless navigation capabilities across these environments <u>to achieve long-lasting navigation for versatile robots.</u>
+**Samsung Electronics**, Suwon, Korea
+* **Project Leader**, C-Lab (Jun. 2014 – Jun. 2015)
+* **Engineer (Hardware)**, TV R&D Lab (Apr. 2013 – Apr. 2018)
