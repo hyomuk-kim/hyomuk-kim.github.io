@@ -15,6 +15,8 @@ redirect_from:
   }
 </style>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Existential Robotics Laboratory</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
 
 <details>
@@ -124,9 +126,9 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 
 <h2 style="color: var(--title-navy); margin-bottom: 10px;">Professional Experiences</h2>
 
-<div style="border-left: 3px solid var(--title-navy); padding-left: 15px; margin-bottom: 30px;">
+<div style="border-left: 3px solid var(--title-navy); padding-left: 15px; margin-bottom: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.15 em;">Samsung Research</h3>
+    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.2 em;">Samsung Research</h3>
     <span style="color: var(--text-muted); font-size: 0.9em;">Seoul, Korea</span>
   </div>
   
@@ -148,7 +150,7 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 
 <div style="border-left: 3px solid var(--title-navy); padding-left: 15px; margin-bottom: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.15em;">Samsung Electronics</h3>
+    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.2em;">Samsung Electronics</h3>
     <span style="color: var(--text-muted); font-size: 0.9em;">Suwon, Korea</span>
   </div>
   
