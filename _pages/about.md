@@ -126,7 +126,7 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 
 <div style="border-left: 3px solid var(--title-navy); padding-left: 15px; margin-bottom: 30px;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.3em;">Samsung Research</h3>
+    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.15 em;">Samsung Research</h3>
     <span style="color: var(--text-muted); font-size: 0.9em;">Seoul, Korea</span>
   </div>
   
@@ -148,7 +148,7 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 
 <div style="border-left: 3px solid var(--title-navy); padding-left: 15px; margin-bottom: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
-    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.3em;">Samsung Electronics</h3>
+    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.15em;">Samsung Electronics</h3>
     <span style="color: var(--text-muted); font-size: 0.9em;">Suwon, Korea</span>
   </div>
   
