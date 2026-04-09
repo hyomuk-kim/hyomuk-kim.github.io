@@ -50,7 +50,7 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 
 <h2 style="color: #0F4C81; margin-bottom: 10px;">Projects</h2>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<!-- <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="flex: 0 0 150px; margin-right: 20px;">
     <video src="/videos/diffusion_policy.mov" autoplay loop muted playsinline style="width: 150px; height: 100px; object-fit: cover; border-radius: 8px;"></video>
   </div>
@@ -59,6 +59,22 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
     <p><em>UC San Diego (Jan 2026 – Mar 2026)</em></p>
     <p>Implemented a Conditional Denoising Diffusion Policy using a 1D Temporal U-Net to solve mode-averaging in explicit Behavior Cloning. Achieved an 81.33% success rate on contact-rich manipulation tasks in the Push-T environment by integrating EMA weight smoothing and Action Chunking.</p>
     <p><small><strong>Tech:</strong> PyTorch, Diffusers, Gymnasium, LeRobot</small></p>
+  </div>
+</div> -->
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
+  <div style="flex: 0 0 250px; margin-right: 25px;">
+    <video src="/videos/diffusion_policy.mov" autoplay loop muted playsinline style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; border: 1px solid #eaeaea; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"></video>
+  </div>
+  
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0; margin-bottom: 5px; font-size: 1.25em;"><strong>Action Diffusion Policy: Generative Imitation Learning for Manipulation</strong></h3>
+    
+    <p style="margin-top: 0; margin-bottom: 12px; font-size: 0.9em; color: #666;"><em>UC San Diego (Jan 2026 – Mar 2026)</em></p>
+    
+    <p style="margin-bottom: 12px; line-height: 1.5; font-size: 0.95em;">Implemented a Conditional Denoising Diffusion Policy using a 1D Temporal U-Net to solve mode-averaging in explicit Behavior Cloning. Achieved an 81.33% success rate on contact-rich manipulation tasks in the Push-T environment by integrating EMA weight smoothing and Action Chunking.</p>
+    
+    <p style="margin-bottom: 0;"><small><strong>Tech:</strong> PyTorch, Diffusers, Gymnasium, LeRobot</small></p>
   </div>
 </div>
 
