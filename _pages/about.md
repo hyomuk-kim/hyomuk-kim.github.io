@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: #E7CF27; font-weight: bold; text-decoration: none;">Existential Robotics Laboratory</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: #E7CF27; font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
+I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: #C69214; font-weight: bold; text-decoration: none;">Existential Robotics Laboratory</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: #C69214; font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
 
 <details>
   <summary><b style="color: #0F4C81;">Click to expand my past journey</b></summary>
