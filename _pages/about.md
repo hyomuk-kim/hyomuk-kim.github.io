@@ -7,17 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: #FFCD00; font-weight: bold; text-decoration: none;">Existential Robotics Laboratory</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: #FFCD00; font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
+I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: #E7CF27; font-weight: bold; text-decoration: none;">Existential Robotics Laboratory</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: #E7CF27; font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
 
 <details>
-  <summary><b>Click to expand my past journey</b></summary>
+  <summary><b style="color: #0F4C81;">Click to expand my past journey</b></summary>
   <br>
-  Prior to joining UC San Diego, I was a Staff Engineer at the Robot Center of <a href="https://research.samsung.com"  style="color: #FFCD00; font-weight: bold; text-decoration: none;">Samsung Research</a>, where I focused on mobile robotic navigation. Working under the guidance of <a href="https://linkedin.com/in/junghyun-kwon"  style="color: #FFCD00; font-weight: bold; text-decoration: none;">Junghyun Kwon</a>, I specialized in visual SLAM, 3D localization, mapping, and robust motion planning. <br><br>
-  My research extends beyond robotics into applied AI. At Samsung's Global AI Center, advised by <a href="https://linkedin.com/in/chanwoo-kim-2628a622" style="color: #FFCD00; font-weight: bold; text-decoration: none;">Chanwoo Kim</a>, I engineered a Neural Text-To-Speech (TTS) engine—executing the entire pipeline from data collection and model training to C++ deployment. I also contributed to projects involving neural networks for Brain-Machine Interfaces (BMI) and command recommendation engines for AI agents. <br><br>
+  Prior to joining UC San Diego, I was a Staff Engineer at the Robot Center of <a href="https://research.samsung.com"  style="color: #E7CF27; font-weight: bold; text-decoration: none;">Samsung Research</a>, where I focused on mobile robotic navigation. Working under the guidance of <a href="https://linkedin.com/in/junghyun-kwon"  style="color: #E7CF27; font-weight: bold; text-decoration: none;">Junghyun Kwon</a>, I specialized in visual SLAM, 3D localization, mapping, and robust motion planning. <br><br>
+  My research extends beyond robotics into applied AI. At Samsung's Global AI Center, advised by <a href="https://linkedin.com/in/chanwoo-kim-2628a622" style="color: #E7CF27; font-weight: bold; text-decoration: none;">Chanwoo Kim</a>, I engineered a Neural Text-To-Speech (TTS) engine—executing the entire pipeline from data collection and model training to C++ deployment. I also contributed to projects involving neural networks for Brain-Machine Interfaces (BMI) and command recommendation engines for AI agents. <br><br>
   Earlier in my career, I built a strong foundation in hardware and product development. I spent 5 years at Samsung's Visual Display Division, validating circuit systems for flagship TVs. Additionally, I led a 6-member team at C-Lab as a Project Manager, spearheading the development of a cross-device content archive platform.
 </details>
 
-> For a comprehensive overview of my experience, please refer to my <a href="https://hyomuk-kim.github.io/files/Curriculum-Vitae_Hyomuk-Kim.pdf" style="color: #FFCD00; font-weight: bold; text-decoration: none;">Curriculum Vitae</a>.
+> For a comprehensive overview of my experience, please refer to my <a href="https://hyomuk-kim.github.io/files/Curriculum-Vitae_Hyomuk-Kim.pdf" style="color: #E7CF27; font-weight: bold; text-decoration: none;">Curriculum Vitae</a>.
 
 <h2 style="color: #0F4C81; margin-bottom: 10px;">News</h2>
 
@@ -37,16 +37,16 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 
 * **Robot System as a Mothership and Controller of Microbots.**
   **Hyomuk Kim**, Aron Baik.
-  <a href="https://patents.google.com/patent/US20240148213A1/en?oq=WO2023063565A1" style="color: #FFCD00; font-weight: bold; text-decoration: none;">US20240148213A1</a>, May 2024.
+  <a href="https://patents.google.com/patent/US20240148213A1/en?oq=WO2023063565A1" style="color: #E7CF27; font-weight: bold; text-decoration: none;">US20240148213A1</a>, May 2024.
 * **Robot Device Operating In Mode Corresponding To Position Of Robot Device And Control Method Thereof.**
   **Hyomuk Kim**, Woojeong Kim, Jewoong Ryu, Mideum Choi, Aron Baik.
-  <a href="https://patents.google.com/patent/US20240036585A1/en" style="color: #FFCD00; font-weight: bold; text-decoration: none;">US20240036585A1</a>, Feb 2024.
+  <a href="https://patents.google.com/patent/US20240036585A1/en" style="color: #E7CF27; font-weight: bold; text-decoration: none;">US20240036585A1</a>, Feb 2024.
 * **Movable Robot And Controlling Method Thereof.**
   Eunsoll Chang, Youngil Koh, **Hyomuk Kim**, Mideum Choi.
-  <a href="https://patents.google.com/patent/US20230356391A1/en?oq=US20230356391A1" style="color: #FFCD00; font-weight: bold; text-decoration: none;">US20230356391A1</a>, Nov 2023.
+  <a href="https://patents.google.com/patent/US20230356391A1/en?oq=US20230356391A1" style="color: #E7CF27; font-weight: bold; text-decoration: none;">US20230356391A1</a>, Nov 2023.
 * **Method of Yield Planning for Mobile Robots.**
   Mideum Choi, **Hyomuk Kim**, Jewoong Ryu, Aron Baik.
-  <a href="https://patents.google.com/patent/US20230333567A1/en?oq=US20230333567A1" style="color: #FFCD00; font-weight: bold; text-decoration: none;">US20230333567A1</a>, Oct 2023.
+  <a href="https://patents.google.com/patent/US20230333567A1/en?oq=US20230333567A1" style="color: #E7CF27; font-weight: bold; text-decoration: none;">US20230333567A1</a>, Oct 2023.
 
 <h2 style="color: #0F4C81; margin-bottom: 10px;">Projects</h2>
 
