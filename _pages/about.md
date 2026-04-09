@@ -17,7 +17,7 @@ redirect_from:
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Existential Robotics Laboratory</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
+I am a 1st-year Master's student in Electrical and Computer Engineering at UC San Diego, specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Existential Robotics Lab</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>.
 
 <details>
   <summary><b style="color: #0F4C81;">Click to expand my past journey</b></summary>
