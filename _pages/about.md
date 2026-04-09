@@ -17,7 +17,7 @@ I am a 1st-year Master's student in Electrical and Computer Engineering at UC Sa
   Earlier in my career, I built a strong foundation in hardware and product development. I spent 5 years at Samsung's Visual Display Division, validating circuit systems for flagship TVs. Additionally, I led a 6-member team at C-Lab as a Project Manager, spearheading the development of a cross-device content archive platform.
 </details>
 
-> For a comprehensive overview of my experience, please refer to my <a href="https://hyomuk-kim.github.io/files/cv_hyomuk-kim.pdf" style="color: #FFCD00; font-weight: bold; text-decoration: none;">Curriculum Vitae</a>.
+> For a comprehensive overview of my experience, please refer to my <a href="https://hyomuk-kim.github.io/files/Curriculum-Vitae_Hyomuk-Kim.pdf" style="color: #FFCD00; font-weight: bold; text-decoration: none;">Curriculum Vitae</a>.
 
 <h2 style="color: #0F4C81; margin-bottom: 10px;">News</h2>
 
