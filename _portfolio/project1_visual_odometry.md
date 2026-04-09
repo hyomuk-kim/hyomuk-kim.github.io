@@ -9,9 +9,6 @@ collection: portfolio
 > **Info.**  
   _Jan. 2022 ~ Present at Robot Intelligence Team with 3 members._
 
-> **Note**  
-  _Since this is an ongoing project, please excuse me for just providing a somewhat abstract description and not being able to go into detailed explanations here._
-
 ## Goal
 
 The aim of this project is to develop an in-house visual SLAM module for small home robots and factory robots.
