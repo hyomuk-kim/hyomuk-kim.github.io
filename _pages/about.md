@@ -52,7 +52,7 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="flex: 0 0 150px; margin-right: 20px;">
-    <video src="/videos/diffusion_policy.mp4" autoplay loop muted playsinline style="width: 150px; height: 100px; object-fit: cover; border-radius: 8px;"></video>
+    <video src="/videos/diffusion_policy.mov" autoplay loop muted playsinline style="width: 150px; height: 100px; object-fit: cover; border-radius: 8px;"></video>
   </div>
   <div>
     <h4><strong>Action Diffusion Policy: Generative Imitation Learning for Manipulation</strong></h4>
