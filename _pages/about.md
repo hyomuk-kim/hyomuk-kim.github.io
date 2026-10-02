@@ -17,7 +17,7 @@ redirect_from:
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-I am a Master's student in Electrical and Computer Engineering at UC San Diego (graduating March 2027), specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Existential Robotics Lab</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>. I am looking for full-time roles in robot perception, SLAM, and robot learning starting in spring 2027.
+I am a Master's student in Electrical and Computer Engineering at UC San Diego (graduating March 2027), specializing in Intelligent Systems, Robotics, and Control (EC80). I recently joined the <a href="https://existentialrobotics.org/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Existential Robotics Lab</a> (ERL), where I am supervised by Professor <a href="https://natanaso.github.io/" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Nikolay Atanasov</a>. I am looking for full-time roles in robot perception, SLAM, manipulation, and robot learning starting in spring&nbsp;2027.
 
 <details>
   <summary><b style="color: #0F4C81;">Click to expand my past journey</b></summary>
@@ -27,56 +27,43 @@ I am a Master's student in Electrical and Computer Engineering at UC San Diego (
   Earlier in my career, I built a strong foundation in hardware and product development. I spent 5 years at Samsung's Visual Display Division, validating circuit systems for flagship TVs. Additionally, I led a 6-member team at C-Lab as a Project Manager, spearheading the development of a cross-device content archive platform.
 </details>
 
-> For a comprehensive overview of my experience, please refer to my <a href="https://hyomuk-kim.github.io/files/Curriculum-Vitae_Hyomuk-Kim.pdf" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">Curriculum Vitae</a>.
-
 <h2 style="color: var(--title-navy); margin-bottom: 10px;">News</h2>
 
-* **[Apr. 2026]** I have joined the Existential Robotics Laboratory (ERL) for research projects!
+* **[Oct. 2026]** I am on the job market for full-time roles in robot perception, SLAM, manipulation, and robot learning, starting spring&nbsp;2027.
+* **[Oct. 2026]** Started working on vision-language-action (VLA) policies for mobile manipulation with a Reachy 2 robot at ERL.
+* **[Apr. 2026]** Joined the Existential Robotics Laboratory (ERL) and started research on long-horizon non-prehensile manipulation with an xArm6 arm.
 * **[Sep. 2025]** I have started my Master’s degree in ECE at UC San Diego!
 
 <h2 style="color: var(--title-navy); margin-bottom: 10px;">Research Interests</h2>
 
-My long-term research goal is to build safe, reliable, and highly adaptable autonomous systems. Specifically, I am interested in blending classic trajectory optimization and visual SLAM with modern robot learning techniques to enable continuous intelligence improvement in complex, unstructured environments.
+I want to build robots that perceive, plan, and act reliably in unstructured environments. I am most interested in combining classical estimation and model-based control with learned policies, so that each covers the other's weak spots.
 
-* **Robot Perception:** Visual SLAM, Sensor Fusion, Semantic Mapping
-* **Motion Planning:** Trajectory Optimization (MPPI, MPC), Safe Navigation
-* **Robot Learning:** Deep Reinforcement Learning, Generative Models, Embodied AI
-
-<h2 style="color: var(--title-navy); margin-bottom: 10px;">Selected Patents</h2>
-Throughout my career as a robotics and hardware engineer at Samsung, I have authored and contributed to multiple patents, two of which have been granted in the US. Below are a few selected works: <br>
-
-* **Robot System as a Mothership and Controller of Microbots.**
-  **Hyomuk Kim**, Aron Baik.
-  <a href="https://patents.google.com/patent/US20240148213A1/en?oq=WO2023063565A1" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US20240148213A1</a> (pending), May 2024.
-* **Robot Device Operating In Mode Corresponding To Position Of Robot Device And Control Method Thereof.**
-  **Hyomuk Kim**, Woojeong Kim, Jewoong Ryu, Mideum Choi, Aron Baik.
-  <a href="https://patents.google.com/patent/US12560940B2/en" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US12560940B2</a> (granted), Feb 2026.
-* **Movable Robot And Controlling Method Thereof.**
-  Eunsoll Chang, Youngil Koh, **Hyomuk Kim**, Mideum Choi.
-  <a href="https://patents.google.com/patent/US20230356391A1/en?oq=US20230356391A1" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US20230356391A1</a> (pending), Nov 2023.
-* **Method of Yield Planning for Mobile Robots.**
-  Mideum Choi, **Hyomuk Kim**, Jewoong Ryu, Aron Baik.
-  <a href="https://patents.google.com/patent/US12468305B2/en" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US12468305B2</a> (granted), Nov 2025.
+* **Robot Perception:** Visual SLAM, State Estimation & Sensor Fusion, 3D Scene Understanding
+* **Planning & Control:** Sampling-Based MPC (MPPI), Non-Prehensile Manipulation, Mobile Robot Navigation
+* **Robot Learning:** Imitation Learning (Diffusion Policy), Vision-Language-Action Models, Learning-Augmented Control
 
 <h2 style="color: var(--title-navy); margin-bottom: 10px;">Projects</h2>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
+  <div style="flex: 0 0 180px; margin-right: 25px;">
+    <img src="/images/cloi_hardware_pushing.jpg" alt="xArm6 pushing a hammer among obstacles" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; border: 1px solid #eaeaea; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+  </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0; margin-bottom: 5px; font-size: 1.25em;"><strong>Long-Horizon Non-Prehensile Manipulation with Sampling-Based MPC</strong></h3>
     <p style="margin-top: 0; margin-bottom: 12px; font-size: 0.9em; color: #666;"><em>Existential Robotics Lab, UC San Diego (Apr 2026 – Present)</em></p>
-    <p style="margin-bottom: 12px; line-height: 1.5; font-size: 0.95em;">Research on pushing objects to goal poses among obstacles with an xArm6 manipulator using sampling-based model predictive control. I built the perception pipeline and the real-robot experiment infrastructure. The paper is under review; details will follow after the review period.</p>
+    <p style="margin-bottom: 12px; line-height: 1.5; font-size: 0.95em;">Research on pushing objects to goal poses among obstacles with an xArm6 manipulator using sampling-based model predictive control. I verified the controller implementation, built the perception and experiment pipeline, and ran the real-robot experiments behind the results. The paper is under review; details will follow after the review period.</p>
     <p style="margin-bottom: 0;"><small><strong>Tech:</strong> MPPI, Perception, Real-Robot Experiments</small></p>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
   <div style="flex: 0 0 180px; margin-right: 25px;">
-    <img src="/images/viz_of_visual_slam_in_rviz.jpg" alt="Visual SLAM in RViz" style="width: 100%; aspect-ratio: 1/1; object-fit: contain; border-radius: 8px; border: 1px solid #eaeaea; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+    <img src="/images/viz_of_visual_slam_in_rviz.jpg" alt="Visual SLAM in RViz" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; border: 1px solid #eaeaea; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
   </div>
   <div style="flex: 1;">
     <h3 style="margin-top: 0; margin-bottom: 5px; font-size: 1.25em;"><strong>Visual SLAM for Autonomous Mobile Robots</strong></h3>
-    <p style="margin-top: 0; margin-bottom: 12px; font-size: 0.9em; color: #666;"><em>Samsung Research (Apr 2021 – Aug 2024)</em></p>
-    <p style="margin-bottom: 12px; line-height: 1.5; font-size: 0.95em;">Architected and implemented the visual SLAM module of a new AMR platform in C++, building on the ORB-SLAM3 design: stereo feature matching, pose estimation, and multi-threaded local bundle adjustment with Ceres. It ran under ROS2 on a Qualcomm RB5 with a RealSense D435 and was tested on mobile robots in indoor environments.</p>
+    <p style="margin-top: 0; margin-bottom: 12px; font-size: 0.9em; color: #666;"><em>Samsung Research (Jan 2022 – Feb 2024)</em></p>
+    <p style="margin-bottom: 12px; line-height: 1.5; font-size: 0.95em;">Co-designed from scratch and implemented in C++ the visual SLAM module of a new AMR platform: ORB feature matching, pose estimation, and multi-threaded local bundle adjustment with Ceres. It ran under ROS2 on a Qualcomm RB5 with a RealSense D435 and was tested on mobile robots in indoor environments.</p>
     <p style="margin-bottom: 0;"><small><strong>Tech:</strong> C++, ROS2, Ceres, Eigen, OpenCV</small></p>
   </div>
 </div>
@@ -181,7 +168,19 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
 </div>
 
 
-<h2 style="color: var(--title-navy); margin-bottom: 10px;">Professional Experiences</h2>
+<h2 style="color: var(--title-navy); margin-bottom: 10px;">Experience</h2>
+
+<div style="border-left: 3px solid var(--title-navy); padding-left: 15px; margin-bottom: 20px;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+    <h3 style="margin: 0; color: var(--title-navy); font-size: 1.2em;">UC San Diego</h3>
+    <span style="color: var(--text-muted); font-size: 0.9em;">La Jolla, CA</span>
+  </div>
+  
+  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0;">
+    <div><strong>Graduate Researcher</strong> <span style="color: var(--text-muted); font-size: 0.95em;">| Existential Robotics Lab</span></div>
+    <span style="font-size: 0.85em; color: var(--text-muted);">Apr. 2026 – Present</span>
+  </div>
+</div>
 
 <div style="border-left: 3px solid var(--title-navy); padding-left: 15px; margin-bottom: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
@@ -200,7 +199,7 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
   </div>
   
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0;">
-    <div><strong>Engineer (Deep Learning)</strong> <span style="color: var(--text-muted); font-size: 0.95em;">| Language & Voice Team</span></div>
+    <div><strong>Engineer (Deep Learning)</strong> <span style="color: var(--text-muted); font-size: 0.95em;">| Speech Processing Lab, Global AI Center</span></div>
     <span style="font-size: 0.85em; color: var(--text-muted);">Apr. 2018 – Jan. 2020</span>
   </div>
 </div>
@@ -218,6 +217,22 @@ Throughout my career as a robotics and hardware engineer at Samsung, I have auth
   
   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0;">
     <div><strong>Engineer (Circuit Design)</strong> <span style="color: var(--text-muted); font-size: 0.95em;">| TV R&D Lab</span></div>
-    <span style="font-size: 0.85em; color: var(--text-muted);">Apr. 2013 – Apr. 2018</span>
+    <span style="font-size: 0.85em; color: var(--text-muted);">Aug. 2013 – Apr. 2018</span>
   </div>
 </div>
+
+<h2 style="color: var(--title-navy); margin-bottom: 10px;">Selected Patents</h2>
+Throughout my career as a robotics and hardware engineer at Samsung, I have authored and contributed to multiple patents, two of which have been granted in the US. Below are a few selected works: <br>
+
+* **Robot System as a Mothership and Controller of Microbots.**
+  **Hyomuk Kim**, Aron Baik.
+  <a href="https://patents.google.com/patent/US20240148213A1/en?oq=WO2023063565A1" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US20240148213A1</a> (pending), May 2024.
+* **Robot Device Operating In Mode Corresponding To Position Of Robot Device And Control Method Thereof.**
+  **Hyomuk Kim**, Woojeong Kim, Jewoong Ryu, Mideum Choi, Aron Baik.
+  <a href="https://patents.google.com/patent/US12560940B2/en" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US12560940B2</a> (granted), Feb 2026.
+* **Movable Robot And Controlling Method Thereof.**
+  Eunsoll Chang, Youngil Koh, **Hyomuk Kim**, Mideum Choi.
+  <a href="https://patents.google.com/patent/US20230356391A1/en?oq=US20230356391A1" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US20230356391A1</a> (pending), Nov 2023.
+* **Method of Yield Planning for Mobile Robots.**
+  Mideum Choi, **Hyomuk Kim**, Jewoong Ryu, Aron Baik.
+  <a href="https://patents.google.com/patent/US12468305B2/en" style="color: var(--ucsd-gold); font-weight: bold; text-decoration: none;">US12468305B2</a> (granted), Nov 2025.
