@@ -31,7 +31,7 @@ I am a Master's student in Electrical and Computer Engineering at UC San Diego (
 
 * **[Oct. 2026]** I am on the job market for full-time roles in robot perception, SLAM, manipulation, and robot learning, starting spring&nbsp;2027.
 * **[Oct. 2026]** Started working on vision-language-action (VLA) policies for mobile manipulation with a Reachy 2 robot at ERL.
-* **[Apr. 2026]** Joined the Existential Robotics Laboratory (ERL) and started research on long-horizon non-prehensile manipulation with an xArm6 arm.
+* **[Apr. 2026]** Joined the Existential Robotics Laboratory (ERL) and started research on non-prehensile manipulation with an xArm6 arm.
 * **[Sep. 2025]** I have started my Master’s degree in ECE at UC San Diego!
 
 <h2 style="color: var(--title-navy); margin-bottom: 10px;">Research Interests</h2>
@@ -49,7 +49,7 @@ I want to build robots that perceive, plan, and act reliably in unstructured env
     <img src="/images/cloi_hardware_pushing.jpg" alt="xArm6 pushing a hammer among obstacles" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 8px; border: 1px solid #eaeaea; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
   </div>
   <div style="flex: 1;">
-    <h3 style="margin-top: 0; margin-bottom: 5px; font-size: 1.25em;"><strong>Long-Horizon Non-Prehensile Manipulation with Sampling-Based MPC</strong></h3>
+    <h3 style="margin-top: 0; margin-bottom: 5px; font-size: 1.25em;"><strong>Non-Prehensile Manipulation among Obstacles with Sampling-Based MPC</strong></h3>
     <p style="margin-top: 0; margin-bottom: 12px; font-size: 0.9em; color: #666;"><em>Existential Robotics Lab, UC San Diego (Apr 2026 – Present)</em></p>
     <p style="margin-bottom: 12px; line-height: 1.5; font-size: 0.95em;">Research on pushing objects to goal poses among obstacles with an xArm6 manipulator using sampling-based model predictive control. I verified the controller implementation, built the perception and experiment pipeline, and ran the real-robot experiments behind the results. The paper is under review; details will follow after the review period.</p>
     <p style="margin-bottom: 0;"><small><strong>Tech:</strong> MPPI, Perception, Real-Robot Experiments</small></p>
