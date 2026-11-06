@@ -4,8 +4,10 @@
 
 {% include seo.html %}
 
-<!-- Block Google (and others) from quoting page content in search snippets and AI answers -->
-<meta name="robots" content="nosnippet">
+<!-- Block search engines from quoting page content in snippets and AI answers -->
+<meta name="robots" content="nosnippet, noarchive">
+<!-- Bing: noarchive keeps pages out of Copilot answers and Microsoft AI training -->
+<meta name="bingbot" content="nosnippet, noarchive">
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
